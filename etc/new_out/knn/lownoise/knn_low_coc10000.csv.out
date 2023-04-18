@@ -2,8 +2,8 @@
 ▶️  xpln ------------------------------------------------------------
 
 -----------
-explain=	{:Stor {{5 inf}}}
+explain=	{:Pvol {{4 inf}}}
 all               	{:Effort- 21427.0 :Loc+ 931.0 :N 10000 :Risk- 5.0}	{:Effort- 28375.58 :Loc+ 630.23 :N 10000 :Risk- 5.43}
-sway with     8 evals	{:Effort- 17361.0 :Loc+ 1100.0 :N 78 :Risk- 4.0}	{:Effort- 21689.53 :Loc+ 640.31 :N 78 :Risk- 4.26}
-xpln on       8 evals	{:Effort- 22265.0 :Loc+ 971.0 :N 5021 :Risk- 5.0}	{:Effort- 25661.63 :Loc+ 595.74 :N 5021 :Risk- 6.2}
+sway with     8 evals	{:Effort- 11619.0 :Loc+ 1041.0 :N 78 :Risk- 4.0}	{:Effort- 12847.29 :Loc+ 604.26 :N 78 :Risk- 4.26}
+xpln on       8 evals	{:Effort- 21517.0 :Loc+ 951.0 :N 5089 :Risk- 5.0}	{:Effort- 28538.37 :Loc+ 620.54 :N 5089 :Risk- 5.43}
 sort with 10000 evals	{:Effort- 17733.0 :Loc+ 1959.0 :N 78 :Risk- 0.0}	{:Effort- 9567.44 :Loc+ 48.84 :N 78 :Risk- 0.39}
