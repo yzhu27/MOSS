@@ -4,6 +4,6 @@
 -----------
 explain=	{:no_scenecut {1}}
 all               	{:Energy- 1237.73 :N 53662 :PSNR- 45.67}	{:Energy- 1237.85 :N 53662 :PSNR- 5.49}
-sway with     9 evals	{:Energy- 820.44 :N 209 :PSNR- 44.83}	{:Energy- 524.68 :N 209 :PSNR- 9.11}
+sway with     9 evals	{:Energy- 820.44 :N 209 :PSNR- 42.76}	{:Energy- 464.09 :N 209 :PSNR- 7.86}
 xpln on       9 evals	{:Energy- 1177.5 :N 12444 :PSNR- 45.69}	{:Energy- 757.6 :N 12444 :PSNR- 5.43}
 sort with 53662 evals	{:Energy- 465.94 :N 209 :PSNR- 26.7}	{:Energy- 224.31 :N 209 :PSNR- 2.72}
