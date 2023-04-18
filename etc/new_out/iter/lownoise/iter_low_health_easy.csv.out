@@ -2,8 +2,8 @@
 ▶️  xpln ------------------------------------------------------------
 
 -----------
-explain=	{:Max_depth {{13 inf}} :Min_impurity_decrease {{7.5 inf}} :Min_sample_leaves {{10 inf}} :N_estimators {{105 inf}} :criterion {absolute_error poisson}}
+explain=	{:Min_sample_leaves {{15 inf}} :criterion {absolute_error}}
 all               	{:ACC+ -12.24 :MRE- 119.28 :N 10000 :PRED40+ 0.0}	{:ACC+ 5.03 :MRE- 46.99 :N 10000 :PRED40+ 32.3}
-sway with     8 evals	{:ACC+ -1.28 :MRE- 101.33 :N 78 :PRED40+ 0.0}	{:ACC+ 4.98 :MRE- 46.84 :N 78 :PRED40+ 32.3}
-xpln on       8 evals	{:ACC+ -11.97 :MRE- 118.17 :N 212 :PRED40+ 0.0}	{:ACC+ 4.96 :MRE- 46.81 :N 212 :PRED40+ 32.3}
+sway with     8 evals	{:ACC+ -0.49 :MRE- 100.5 :N 78 :PRED40+ 0.0}	{:ACC+ 0.44 :MRE- 39.22 :N 78 :PRED40+ 32.3}
+xpln on       8 evals	{:ACC+ 0.0 :MRE- 0.0 :N 960 :PRED40+ 83.33}	{:ACC+ 0.5 :MRE- 39.31 :N 960 :PRED40+ 32.3}
 sort with 10000 evals	{:ACC+ 0.0 :MRE- 0.0 :N 78 :PRED40+ 83.33}	{:ACC+ 0.0 :MRE- 0.0 :N 78 :PRED40+ 0.0}

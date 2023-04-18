@@ -4,6 +4,6 @@
 -----------
 explain=	{:criterion {poisson}}
 all               	{:ACC+ 7.16 :MRE- 75.34 :N 10000 :PRED40+ 25.0}	{:ACC+ 3.2 :MRE- 11.08 :N 10000 :PRED40+ 14.53}
-sway with     8 evals	{:ACC+ 7.55 :MRE- 74.39 :N 78 :PRED40+ 25.0}	{:ACC+ 2.01 :MRE- 2.76 :N 78 :PRED40+ 9.69}
+sway with     8 evals	{:ACC+ 7.59 :MRE- 73.85 :N 78 :PRED40+ 25.0}	{:ACC+ 2.98 :MRE- 2.98 :N 78 :PRED40+ 9.69}
 xpln on       8 evals	{:ACC+ 7.55 :MRE- 73.66 :N 3494 :PRED40+ 25.0}	{:ACC+ 0.62 :MRE- 1.98 :N 3494 :PRED40+ 9.69}
 sort with 10000 evals	{:ACC+ 11.33 :MRE- 64.86 :N 78 :PRED40+ 25.0}	{:ACC+ 3.85 :MRE- 4.66 :N 78 :PRED40+ 4.84}

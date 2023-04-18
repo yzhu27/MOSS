@@ -2,8 +2,8 @@
 ▶️  xpln ------------------------------------------------------------
 
 -----------
-explain=	{:Clndrs {{-inf 5}} :Model {{74 79}} :Volume {{-inf 183}} :origin {2}}
+explain=	{:Clndrs {{-inf 5}} :Model {{75 78}} :origin {2}}
 all               	{:Acc+ 15.5 :Lbs- 2800.0 :Mpg+ 20.0 :N 398}	{:Acc+ 2.71 :Lbs- 887.21 :Mpg+ 7.75 :N 398}
-sway with     6 evals	{:Acc+ 14.9 :Lbs- 2190.0 :Mpg+ 30.0 :N 12}	{:Acc+ 3.37 :Lbs- 560.08 :Mpg+ 7.75 :N 12}
-xpln on       6 evals	{:Acc+ 15.5 :Lbs- 2223.0 :Mpg+ 30.0 :N 29}	{:Acc+ 1.63 :Lbs- 395.35 :Mpg+ 3.88 :N 29}
+sway with     6 evals	{:Acc+ 15.3 :Lbs- 2190.0 :Mpg+ 30.0 :N 12}	{:Acc+ 2.25 :Lbs- 513.57 :Mpg+ 3.88 :N 12}
+xpln on       6 evals	{:Acc+ 15.0 :Lbs- 2220.0 :Mpg+ 30.0 :N 21}	{:Acc+ 1.63 :Lbs- 438.76 :Mpg+ 3.88 :N 21}
 sort with   398 evals	{:Acc+ 18.8 :Lbs- 1985.0 :Mpg+ 40.0 :N 12}	{:Acc+ 2.48 :Lbs- 200.39 :Mpg+ 0.0 :N 12}
