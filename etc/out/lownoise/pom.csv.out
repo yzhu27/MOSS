@@ -2,8 +2,8 @@
 ▶️  xpln ------------------------------------------------------------
 
 -----------
-explain=	{:Size {{0 inf}}}
-all               	{:Completion+ 0.9 :Cost- 310.28 :Idle- 0.24 :N 10000}	{:Completion+ 0.11 :Cost- 185.38 :Idle- 0.2 :N 10000}
-sway with     8 evals	{:Completion+ 0.9 :Cost- 188.21 :Idle- 0.22 :N 78}	{:Completion+ 0.13 :Cost- 45.15 :Idle- 0.19 :N 78}
-xpln on       8 evals	{:Completion+ 0.9 :Cost- 338.62 :Idle- 0.25 :N 10000}	{:Completion+ 0.12 :Cost- 202.09 :Idle- 0.2 :N 10000}
-sort with 10000 evals	{:Completion+ 1.0 :Cost- 138.51 :Idle- 0.0 :N 78}	{:Completion+ 0.04 :Cost- 54.8 :Idle- 0.0 :N 78}
+explain=	{:cOLORGS {0} :f {0} :v {1} :zEBRALINE {1}}
+all               	{:N 239360 :NUMBERITERATIONS- 7.0 :TIMETOSOLUTION- 134.74}	{:N 239360 :NUMBERITERATIONS- 11.24 :TIMETOSOLUTION- 131.29}
+sway with    10 evals	{:N 467 :NUMBERITERATIONS- 5.0 :TIMETOSOLUTION- 98.42}	{:N 467 :NUMBERITERATIONS- 0.39 :TIMETOSOLUTION- 11.17}
+xpln on      10 evals	{:N 30566 :NUMBERITERATIONS- 5.0 :TIMETOSOLUTION- 108.15}	{:N 30566 :NUMBERITERATIONS- 3.49 :TIMETOSOLUTION- 57.4}
+sort with 239360 evals	{:N 467 :NUMBERITERATIONS- 4.0 :TIMETOSOLUTION- 59.97}	{:N 467 :NUMBERITERATIONS- 0.39 :TIMETOSOLUTION- 15.14}
