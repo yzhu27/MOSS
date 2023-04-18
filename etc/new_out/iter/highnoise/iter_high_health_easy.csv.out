@@ -4,6 +4,6 @@
 -----------
 explain=	{:criterion {absolute_error}}
 all               	{:ACC+ -12.24 :MRE- 119.28 :N 10000 :PRED40+ 0.0}	{:ACC+ 5.03 :MRE- 46.99 :N 10000 :PRED40+ 32.3}
-sway with     8 evals	{:ACC+ 0.0 :MRE- 0.0 :N 78 :PRED40+ 83.33}	{:ACC+ 0.53 :MRE- 39.31 :N 78 :PRED40+ 32.3}
-xpln on       8 evals	{:ACC+ 0.0 :MRE- 0.0 :N 3300 :PRED40+ 83.33}	{:ACC+ 0.53 :MRE- 39.28 :N 3300 :PRED40+ 32.3}
+sway with     8 evals	{:ACC+ -0.52 :MRE- 100.53 :N 78 :PRED40+ 0.0}	{:ACC+ 0.5 :MRE- 39.24 :N 78 :PRED40+ 32.3}
+xpln on       8 evals	{:ACC+ 0.0 :MRE- 0.0 :N 3303 :PRED40+ 83.33}	{:ACC+ 0.5 :MRE- 39.24 :N 3303 :PRED40+ 32.3}
 sort with 10000 evals	{:ACC+ 0.0 :MRE- 0.0 :N 78 :PRED40+ 83.33}	{:ACC+ 0.0 :MRE- 0.0 :N 78 :PRED40+ 0.0}

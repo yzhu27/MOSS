@@ -2,8 +2,8 @@
 ▶️  xpln ------------------------------------------------------------
 
 -----------
-explain=	{:criterion {squared_error}}
+explain=	{:Min_sample_leaves {{15 inf}} :criterion {squared_error}}
 all               	{:ACC+ 7.16 :MRE- 75.34 :N 10000 :PRED40+ 25.0}	{:ACC+ 3.2 :MRE- 11.08 :N 10000 :PRED40+ 14.53}
-sway with     8 evals	{:ACC+ 7.58 :MRE- 73.46 :N 78 :PRED40+ 25.0}	{:ACC+ 1.02 :MRE- 3.37 :N 78 :PRED40+ 9.69}
-xpln on       8 evals	{:ACC+ 7.56 :MRE- 73.64 :N 3217 :PRED40+ 25.0}	{:ACC+ 0.8 :MRE- 2.24 :N 3217 :PRED40+ 9.69}
+sway with     8 evals	{:ACC+ 7.53 :MRE- 73.73 :N 78 :PRED40+ 25.0}	{:ACC+ 0.66 :MRE- 2.07 :N 78 :PRED40+ 9.69}
+xpln on       8 evals	{:ACC+ 7.52 :MRE- 73.63 :N 919 :PRED40+ 25.0}	{:ACC+ 0.64 :MRE- 2.02 :N 919 :PRED40+ 9.69}
 sort with 10000 evals	{:ACC+ 11.33 :MRE- 64.86 :N 78 :PRED40+ 25.0}	{:ACC+ 3.85 :MRE- 4.66 :N 78 :PRED40+ 4.84}
