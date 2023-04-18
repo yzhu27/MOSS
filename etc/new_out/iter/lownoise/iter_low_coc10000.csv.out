@@ -1,0 +1,9 @@
+
+▶️  xpln ------------------------------------------------------------
+
+-----------
+explain=	{:Acap {{2 inf}} :Aexp {{-inf 4}} :Arch {{1 5}} :Cplx {{3 inf}} :Docu {{2 inf}} :Flex {{1 inf}} :Ltex {{1 inf}} :Pcap {{2 inf}} :Pcon {{1 4}} :Plex {{-inf 3}} :Pmat {{2 inf}} :Prec {{-inf 4}} :Pvol {{2 inf}} :Rely {{-inf 3}} :Ruse {{2 5}} :Sced {{1 inf}} :Site {{2 inf}} :Stor {{3 inf}} :Team {{3 inf}} :Time {{3 inf}} :Tool {{1 inf}}}
+all               	{:Effort- 21427.0 :Loc+ 931.0 :N 10000 :Risk- 5.0}	{:Effort- 28375.58 :Loc+ 630.23 :N 10000 :Risk- 5.43}
+sway with     8 evals	{:Effort- 22075.0 :Loc+ 1102.0 :N 78 :Risk- 3.0}	{:Effort- 22736.43 :Loc+ 574.81 :N 78 :Risk- 4.65}
+xpln on       8 evals	{:Effort- 21000.0 :Loc+ 929.0 :N 42 :Risk- 2.0}	{:Effort- 20479.07 :Loc+ 653.88 :N 42 :Risk- 4.26}
+sort with 10000 evals	{:Effort- 17733.0 :Loc+ 1959.0 :N 78 :Risk- 0.0}	{:Effort- 9567.44 :Loc+ 48.84 :N 78 :Risk- 0.39}

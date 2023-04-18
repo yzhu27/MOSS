@@ -1,10 +1,10 @@
 #!/bin/bash
 
 # 设置数据文件夹路径
-data_dir="../etc/data"
+data_dir="../etc/new_data"
 
 # 设置输出文件夹路径
-out_dir="../etc/out"
+out_dir="../etc/new_out"
 
 # 查找数据文件夹下的所有csv文件
 csv_files=$(find "$data_dir" -type f -name "*.csv")

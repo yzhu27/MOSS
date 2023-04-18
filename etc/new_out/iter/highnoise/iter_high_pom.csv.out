@@ -1,0 +1,9 @@
+
+▶️  xpln ------------------------------------------------------------
+
+-----------
+explain=	{:Criticality Modifier {{2 inf}} :Criticality {{1.090210589 inf}} :Culture {{0.156408377 0.183052091} {0.189764555 inf}} :Dynamism {{-inf 1} {2 5}} :Initial Known {{0.80470001 0.827693355} {0.850582163 inf}} :InterDependency {{81 90}} :Plan {{-inf 2}} :Score: {{-inf 0.978673773}} :Team Size {{11 12} {13 16}}}
+all               	{:Completion+ 0.9 :Cost- 313.79 :Idle- 0.25 :N 10000}	{:Completion+ 0.1 :Cost- 186.12 :Idle- 0.21 :N 10000}
+sway with     8 evals	{:Completion+ 0.89 :Cost- 419.21 :Idle- 0.18 :N 78}	{:Completion+ 0.13 :Cost- 205.37 :Idle- 0.21 :N 78}
+xpln on       8 evals	{:Completion+ 0.89 :Cost- 302.94 :Idle- 0.38 :N 16}	{:Completion+ 0.07 :Cost- 193.32 :Idle- 0.18 :N 16}
+sort with 10000 evals	{:Completion+ 1.0 :Cost- 138.51 :Idle- 0.0 :N 78}	{:Completion+ 0.04 :Cost- 54.8 :Idle- 0.0 :N 78}

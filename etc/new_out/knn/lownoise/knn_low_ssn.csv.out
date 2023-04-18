@@ -1,0 +1,9 @@
+
+▶️  xpln ------------------------------------------------------------
+
+-----------
+explain=	{:Size {{0.8 inf}}}
+all               	{:Completion+ 0.9 :Cost- 314.0 :Idle- 0.25 :N 10000}	{:Completion+ 0.1 :Cost- 186.05 :Idle- 0.21 :N 10000}
+sway with     8 evals	{:Completion+ 0.89 :Cost- 294.0 :Idle- 0.22 :N 78}	{:Completion+ 0.11 :Cost- 158.53 :Idle- 0.2 :N 78}
+xpln on       8 evals	{:Completion+ 0.92 :Cost- 408.0 :Idle- 0.22 :N 4980}	{:Completion+ 0.11 :Cost- 222.87 :Idle- 0.19 :N 4980}
+sort with 10000 evals	{:Completion+ 1.0 :Cost- 139.0 :Idle- 0.0 :N 78}	{:Completion+ 0.04 :Cost- 54.65 :Idle- 0.0 :N 78}

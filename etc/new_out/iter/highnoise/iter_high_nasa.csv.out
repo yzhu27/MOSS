@@ -1,0 +1,9 @@
+
+▶️  xpln ------------------------------------------------------------
+
+-----------
+explain=	{:pmat {n}}
+all               	{:Defects- 2007.0 :Effort- 252.0 :Kloc+ 47.5 :Months- 21.4 :N 93}	{:Defects- 3212.02 :Effort- 623.99 :Kloc+ 90.21 :Months- 10.43 :N 93}
+sway with     5 evals	{:Defects- 887.0 :Effort- 114.0 :Kloc+ 16.0 :Months- 16.4 :N 5}	{:Defects- 1067.05 :Effort- 518.6 :Kloc+ 11.24 :Months- 8.37 :N 5}
+xpln on       5 evals	{:Defects- 1219.0 :Effort- 114.0 :Kloc+ 31.5 :Months- 18.9 :N 28}	{:Defects- 1943.41 :Effort- 172.09 :Kloc+ 55.74 :Months- 8.22 :N 28}
+sort with    93 evals	{:Defects- 109.0 :Effort- 10.8 :Kloc+ 3.5 :Months- 7.8 :N 5}	{:Defects- 62.02 :Effort- 6.05 :Kloc+ 1.98 :Months- 1.94 :N 5}

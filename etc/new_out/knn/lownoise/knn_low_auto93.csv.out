@@ -1,0 +1,9 @@
+
+▶️  xpln ------------------------------------------------------------
+
+-----------
+explain=	{:origin {2}}
+all               	{:Acc+ 15.5 :Lbs- 2800.0 :Mpg+ 20.0 :N 398}	{:Acc+ 2.71 :Lbs- 887.21 :Mpg+ 7.75 :N 398}
+sway with     6 evals	{:Acc+ 14.9 :Lbs- 2190.0 :Mpg+ 20.0 :N 12}	{:Acc+ 3.37 :Lbs- 560.08 :Mpg+ 7.75 :N 12}
+xpln on       6 evals	{:Acc+ 15.7 :Lbs- 2246.0 :Mpg+ 30.0 :N 70}	{:Acc+ 2.91 :Lbs- 501.16 :Mpg+ 7.75 :N 70}
+sort with   398 evals	{:Acc+ 18.8 :Lbs- 1985.0 :Mpg+ 40.0 :N 12}	{:Acc+ 2.48 :Lbs- 200.39 :Mpg+ 0.0 :N 12}

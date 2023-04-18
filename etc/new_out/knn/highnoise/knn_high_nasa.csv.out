@@ -1,0 +1,9 @@
+
+▶️  xpln ------------------------------------------------------------
+
+-----------
+explain=	{:apex {n} :sced {l}}
+all               	{:Defects- 2007.0 :Effort- 252.0 :Kloc+ 47.5 :Months- 21.4 :N 93}	{:Defects- 3212.02 :Effort- 623.99 :Kloc+ 90.21 :Months- 10.43 :N 93}
+sway with     5 evals	{:Defects- 256.0 :Effort- 36.0 :Kloc+ 8.2 :Months- 10.4 :N 6}	{:Defects- 195.74 :Effort- 19.07 :Kloc+ 6.28 :Months- 2.36 :N 6}
+xpln on       5 evals	{:Defects- 324.0 :Effort- 50.0 :Kloc+ 10.4 :Months- 11.2 :N 16}	{:Defects- 778.29 :Effort- 104.5 :Kloc+ 24.96 :Months- 5.27 :N 16}
+sort with    93 evals	{:Defects- 109.0 :Effort- 10.8 :Kloc+ 3.5 :Months- 7.8 :N 6}	{:Defects- 62.02 :Effort- 6.05 :Kloc+ 1.98 :Months- 1.94 :N 6}

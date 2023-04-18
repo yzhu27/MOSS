@@ -1,0 +1,9 @@
+
+▶️  xpln ------------------------------------------------------------
+
+-----------
+explain=	{:acap {vh} :data {vh}}
+all               	{:Defects- 2007.0 :Effort- 252.0 :Kloc+ 47.5 :Months- 21.4 :N 93}	{:Defects- 3212.02 :Effort- 623.99 :Kloc+ 90.21 :Months- 10.43 :N 93}
+sway with     5 evals	{:Defects- 810.0 :Effort- 82.0 :Kloc+ 16.3 :Months- 14.8 :N 6}	{:Defects- 436.82 :Effort- 50.39 :Kloc+ 8.8 :Months- 2.21 :N 6}
+xpln on       5 evals	{:Defects- 810.0 :Effort- 82.0 :Kloc+ 16.3 :Months- 14.8 :N 6}	{:Defects- 436.82 :Effort- 50.39 :Kloc+ 8.8 :Months- 2.21 :N 6}
+sort with    93 evals	{:Defects- 109.0 :Effort- 10.8 :Kloc+ 3.5 :Months- 7.8 :N 6}	{:Defects- 62.02 :Effort- 6.05 :Kloc+ 1.98 :Months- 1.94 :N 6}
