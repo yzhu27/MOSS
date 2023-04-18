@@ -3,7 +3,7 @@ import csv
 import random
 
 # 设置随机修改数据的百分比
-percent_to_modify = 5
+percent_to_modify = 0
 
 # 定义函数，用于读取CSV文件并随机修改数据
 def process_csv(input_file, output_file):
@@ -48,7 +48,7 @@ input_dir = './etc/data/origin'
 input_files = [os.path.join(input_dir, f) for f in os.listdir(input_dir) if f.endswith('.csv')]
 
 # 遍历每个CSV文件，进行处理并保存到输出文件夹
-output_dir = './etc/data/highnoise'
+output_dir = './etc/data/te'
 os.makedirs(output_dir, exist_ok=True)
 for input_file in input_files:
     output_file = os.path.join(output_dir, os.path.basename(input_file))
