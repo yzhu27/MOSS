@@ -2,13 +2,16 @@ import csv
 import random
 
 # set file
-input = '../etc/data/auto2.csv'
-output = '../etc/data/auto2_noise.csv'
+inputpath = '../etc/data/'
+outputpath='../etc/data/lownoise'
+input = inputpath+'auto2.csv'
+split = input.split('.')
+output = outputpath+split[0]+"_lownoise."+split[1]
 
 
 # set possibility
-p = 0.8 # noise possibility for a row
-q = 0.8 # noise possibility for a column
+p = 0.01 # noise possibility for a row
+q = 0.01 # noise possibility for a column
 
 
 with open(input, newline='') as csvfile_in, open(output, 'w', newline='') as csvfile_out:

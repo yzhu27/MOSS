@@ -1,0 +1,251 @@
+
+▶️  xpln ------------------------------------------------------------
+
+maker	Acura	Acura
+maker	Audi	Audi
+maker	Buick	Buick
+maker	Cadillac	Cadillac
+maker	Chevrolet	Chevrolet
+maker	Chrysler	Chrysler
+maker	Dodge	Dodge
+maker	Eagle	Eagle
+maker	Ford	Ford
+maker	Geo	Geo
+maker	Honda	Honda
+maker	Hyundai	Hyundai
+maker	Lexus	Lexus
+maker	Mazda	Mazda
+maker	Mercedes-Benz	Mercedes-Benz
+maker	Mercury	Mercury
+maker	Mitsubishi	Mitsubishi
+maker	Nissan	Nissan
+maker	Oldsmobile	Oldsmobile
+maker	Pontiac	Pontiac
+maker	Saab	Saab
+maker	Saturn	Saturn
+maker	Subaru	Subaru
+maker	Suzuki	Suzuki
+maker	Toyota	Toyota
+maker	Volkswagen	Volkswagen
+maker	Volvo	Volvo
+
+type	Compact	Compact
+type	Large	Large
+type	Midsize	Midsize
+type	Small	Small
+type	Sporty	Sporty
+type	Van	Van
+
+Air_Bags_standard	-inf	0
+Air_Bags_standard	0	inf
+
+Drive_train_type	-inf	0
+Drive_train_type	0	1
+Drive_train_type	1	inf
+
+Number_of_cylinders	-inf	3
+Number_of_cylinders	3	5
+Number_of_cylinders	5	inf
+
+Engine_size	-inf	1.3
+Engine_size	1.3	1.6
+Engine_size	1.6	inf
+
+Horsepower	-inf	73
+Horsepower	73	85
+Horsepower	85	105
+Horsepower	105	inf
+
+RPM	-inf	4800
+RPM	4800	5000
+RPM	5000	5400
+RPM	5400	5800
+RPM	5800	inf
+
+Engine_revolutions_per_mile	-inf	2340
+Engine_revolutions_per_mile	2340	2515
+Engine_revolutions_per_mile	2515	2710
+Engine_revolutions_per_mile	2710	inf
+
+manual_transmission_available	0	0
+manual_transmission_available	1	1
+
+Fuel_tank_capacity	-inf	11.1
+Fuel_tank_capacity	11.1	13.2
+Fuel_tank_capacity	13.2	inf
+
+Passenger_capacity	-inf	4
+Passenger_capacity	4	5
+Passenger_capacity	5	inf
+
+Length	-inf	163
+Length	163	174
+Length	174	179
+Length	179	inf
+
+Wheelbase	-inf	93
+Wheelbase	93	97
+Wheelbase	97	101
+Wheelbase	101	inf
+
+Width	-inf	66
+Width	66	inf
+
+U-turn_space	-inf	33
+U-turn_space	33	35
+U-turn_space	35	36
+U-turn_space	36	inf
+
+Rear_seat_room	-inf	24
+Rear_seat_room	24	26.5
+Rear_seat_room	26.5	27.5
+Rear_seat_room	27.5	inf
+
+Luggage_capacity	-inf	10
+Luggage_capacity	10	11
+Luggage_capacity	11	12
+Luggage_capacity	12	16.332789239991
+Luggage_capacity	16.332789239991	inf
+
+domestic	0	0
+domestic	1	1
+
+Width	-inf	66	0.83	{:best 6 :rest 12}
+type	Small	Small	0.8	{:best 6 :rest 15}
+Air_Bags_standard	-inf	0	0.74	{:best 6 :rest 21}
+Engine_revolutions_per_mile	2710	inf	0.72	{:best 5 :rest 8}
+Drive_train_type	0	1	0.62	{:best 6 :rest 37}
+manual_transmission_available	1	1	0.59	{:best 6 :rest 41}
+Passenger_capacity	-inf	4	0.47	{:best 4 :rest 17}
+Rear_seat_room	24	26.5	0.46	{:best 4 :rest 18}
+Engine_size	-inf	1.3	0.45	{:best 3 :rest 3}
+Horsepower	-inf	73	0.45	{:best 3 :rest 3}
+Fuel_tank_capacity	-inf	11.1	0.44	{:best 3 :rest 4}
+Wheelbase	-inf	93	0.44	{:best 3 :rest 4}
+Length	-inf	163	0.43	{:best 3 :rest 5}
+U-turn_space	33	35	0.43	{:best 3 :rest 5}
+Engine_size	1.3	1.6	0.41	{:best 3 :rest 7}
+domestic	1	1	0.4	{:best 4 :rest 26}
+RPM	5800	inf	0.39	{:best 3 :rest 8}
+Wheelbase	97	101	0.38	{:best 3 :rest 9}
+Fuel_tank_capacity	11.1	13.2	0.38	{:best 3 :rest 10}
+Number_of_cylinders	3	5	0.35	{:best 4 :rest 36}
+Number_of_cylinders	-inf	3	0.29	{:best 2 :rest 3}
+U-turn_space	-inf	33	0.28	{:best 2 :rest 4}
+Luggage_capacity	-inf	10	0.27	{:best 2 :rest 5}
+Rear_seat_room	26.5	27.5	0.25	{:best 2 :rest 7}
+Luggage_capacity	10	11	0.24	{:best 2 :rest 8}
+Horsepower	85	105	0.23	{:best 2 :rest 9}
+Length	163	174	0.22	{:best 2 :rest 11}
+RPM	5400	5800	0.17	{:best 2 :rest 19}
+maker	Suzuki	Suzuki	0.17	{:best 1}
+maker	Eagle	Eagle	0.17	{:best 1}
+maker	Pontiac	Pontiac	0.15	{:best 1 :rest 1}
+maker	Geo	Geo	0.15	{:best 1 :rest 1}
+Passenger_capacity	4	5	0.14	{:best 2 :rest 26}
+domestic	0	0	0.12	{:best 2 :rest 34}
+maker	Ford	Ford	0.12	{:best 1 :rest 4}
+Luggage_capacity	11	12	0.12	{:best 1 :rest 4}
+U-turn_space	35	36	0.11	{:best 1 :rest 5}
+Horsepower	73	85	0.11	{:best 1 :rest 5}
+maker	Dodge	Dodge	0.1	{:best 1 :rest 6}
+RPM	4800	5000	0.09	{:best 1 :rest 8}
+Engine_revolutions_per_mile	2340	2515	0.09	{:best 1 :rest 9}
+Luggage_capacity	16.332789239991	inf	0.09	{:best 1 :rest 9}
+Length	174	179	0.08	{:best 1 :rest 10}
+maker	Cadillac	Cadillac	0.0	{:rest 1}
+Fuel_tank_capacity	13.2	inf	0.0	{:rest 46}
+Rear_seat_room	27.5	inf	0.0	{:rest 25}
+Luggage_capacity	12	16.332789239991	0.0	{:rest 34}
+Passenger_capacity	5	inf	0.0	{:rest 17}
+maker	Audi	Audi	0.0	{:rest 2}
+Rear_seat_room	-inf	24	0.0	{:rest 10}
+maker	Chevrolet	Chevrolet	0.0	{:rest 4}
+Width	66	inf	0.0	{:rest 48}
+Wheelbase	101	inf	0.0	{:rest 37}
+maker	Buick	Buick	0.0	{:rest 2}
+U-turn_space	36	inf	0.0	{:rest 46}
+Length	179	inf	0.0	{:rest 34}
+maker	Chrysler	Chrysler	0.0	{:rest 2}
+Wheelbase	93	97	0.0	{:rest 10}
+maker	Mitsubishi	Mitsubishi	0.0	{:rest 2}
+Engine_revolutions_per_mile	2515	2710	0.0	{:rest 14}
+type	Compact	Compact	0.0	{:rest 12}
+maker	Volvo	Volvo	0.0	{:rest 2}
+type	Large	Large	0.0	{:rest 3}
+maker	Mercedes-Benz	Mercedes-Benz	0.0	{:rest 1}
+type	Midsize	Midsize	0.0	{:rest 11}
+type	Sporty	Sporty	0.0	{:rest 10}
+maker	Volkswagen	Volkswagen	0.0	{:rest 4}
+maker	Subaru	Subaru	0.0	{:rest 6}
+maker	Nissan	Nissan	0.0	{:rest 2}
+maker	Toyota	Toyota	0.0	{:rest 3}
+maker	Oldsmobile	Oldsmobile	0.0	{:rest 2}
+maker	Saturn	Saturn	0.0	{:rest 2}
+maker	Saab	Saab	0.0	{:rest 1}
+manual_transmission_available	0	0	0.0	{:rest 19}
+type	Van	Van	0.0	{:rest 9}
+Air_Bags_standard	0	inf	0.0	{:rest 39}
+RPM	-inf	4800	0.0	{:rest 12}
+Horsepower	105	inf	0.0	{:rest 43}
+RPM	5000	5400	0.0	{:rest 13}
+Engine_revolutions_per_mile	-inf	2340	0.0	{:rest 29}
+maker	Mercury	Mercury	0.0	{:rest 2}
+maker	Mazda	Mazda	0.0	{:rest 3}
+Engine_size	1.6	inf	0.0	{:rest 50}
+maker	Hyundai	Hyundai	0.0	{:rest 2}
+Drive_train_type	-inf	0	0.0	{:rest 7}
+maker	Honda	Honda	0.0	{:rest 3}
+maker	Lexus	Lexus	0.0	{:rest 1}
+Number_of_cylinders	5	inf	0.0	{:rest 21}
+Drive_train_type	1	inf	0.0	{:rest 16}
+maker	Acura	Acura	0.0	{:rest 1}
+{:Width {{-inf 66}}}
+{:Width {{-inf 66}} :type {Small}}
+{:Air_Bags_standard {{-inf 0}} :Width {{-inf 66}} :type {Small}}
+{:Air_Bags_standard {{-inf 0}} :Engine_revolutions_per_mile {{2710 inf}} :Width {{-inf 66}} :type {Small}}
+{:Air_Bags_standard {{-inf 0}} :Drive_train_type {{0 1}} :Engine_revolutions_per_mile {{2710 inf}} :Width {{-inf 66}} :type {Small}}
+{:Air_Bags_standard {{-inf 0}} :Drive_train_type {{0 1}} :Engine_revolutions_per_mile {{2710 inf}} :Width {{-inf 66}} :manual_transmission_available {1} :type {Small}}
+{:Air_Bags_standard {{-inf 0}} :Drive_train_type {{0 1}} :Engine_revolutions_per_mile {{2710 inf}} :Passenger_capacity {{-inf 4}} :Width {{-inf 66}} :manual_transmission_available {1} :type {Small}}
+{:Air_Bags_standard {{-inf 0}} :Drive_train_type {{0 1}} :Engine_revolutions_per_mile {{2710 inf}} :Passenger_capacity {{-inf 4}} :Rear_seat_room {{24 26.5}} :Width {{-inf 66}} :manual_transmission_available {1} :type {Small}}
+{:Air_Bags_standard {{-inf 0}} :Drive_train_type {{0 1}} :Engine_revolutions_per_mile {{2710 inf}} :Engine_size {{-inf 1.3}} :Passenger_capacity {{-inf 4}} :Rear_seat_room {{24 26.5}} :Width {{-inf 66}} :manual_transmission_available {1} :type {Small}}
+{:Air_Bags_standard {{-inf 0}} :Drive_train_type {{0 1}} :Engine_revolutions_per_mile {{2710 inf}} :Engine_size {{-inf 1.3}} :Horsepower {{-inf 73}} :Passenger_capacity {{-inf 4}} :Rear_seat_room {{24 26.5}} :Width {{-inf 66}} :manual_transmission_available {1} :type {Small}}
+{:Air_Bags_standard {{-inf 0}} :Drive_train_type {{0 1}} :Engine_revolutions_per_mile {{2710 inf}} :Engine_size {{-inf 1.3}} :Fuel_tank_capacity {{-inf 11.1}} :Horsepower {{-inf 73}} :Passenger_capacity {{-inf 4}} :Rear_seat_room {{24 26.5}} :Width {{-inf 66}} :manual_transmission_available {1} :type {Small}}
+{:Air_Bags_standard {{-inf 0}} :Drive_train_type {{0 1}} :Engine_revolutions_per_mile {{2710 inf}} :Engine_size {{-inf 1.3}} :Fuel_tank_capacity {{-inf 11.1}} :Horsepower {{-inf 73}} :Passenger_capacity {{-inf 4}} :Rear_seat_room {{24 26.5}} :Wheelbase {{-inf 93}} :Width {{-inf 66}} :manual_transmission_available {1} :type {Small}}
+{:Air_Bags_standard {{-inf 0}} :Drive_train_type {{0 1}} :Engine_revolutions_per_mile {{2710 inf}} :Engine_size {{-inf 1.3}} :Fuel_tank_capacity {{-inf 11.1}} :Horsepower {{-inf 73}} :Length {{-inf 163}} :Passenger_capacity {{-inf 4}} :Rear_seat_room {{24 26.5}} :Wheelbase {{-inf 93}} :Width {{-inf 66}} :manual_transmission_available {1} :type {Small}}
+{:Air_Bags_standard {{-inf 0}} :Drive_train_type {{0 1}} :Engine_revolutions_per_mile {{2710 inf}} :Engine_size {{-inf 1.3}} :Fuel_tank_capacity {{-inf 11.1}} :Horsepower {{-inf 73}} :Length {{-inf 163}} :Passenger_capacity {{-inf 4}} :Rear_seat_room {{24 26.5}} :U-turn_space {{33 35}} :Wheelbase {{-inf 93}} :Width {{-inf 66}} :manual_transmission_available {1} :type {Small}}
+{:Air_Bags_standard {{-inf 0}} :Drive_train_type {{0 1}} :Engine_revolutions_per_mile {{2710 inf}} :Engine_size {{-inf 1.6}} :Fuel_tank_capacity {{-inf 11.1}} :Horsepower {{-inf 73}} :Length {{-inf 163}} :Passenger_capacity {{-inf 4}} :Rear_seat_room {{24 26.5}} :U-turn_space {{33 35}} :Wheelbase {{-inf 93}} :Width {{-inf 66}} :manual_transmission_available {1} :type {Small}}
+{:Air_Bags_standard {{-inf 0}} :Drive_train_type {{0 1}} :Engine_revolutions_per_mile {{2710 inf}} :Engine_size {{-inf 1.6}} :Fuel_tank_capacity {{-inf 11.1}} :Horsepower {{-inf 73}} :Length {{-inf 163}} :Passenger_capacity {{-inf 4}} :Rear_seat_room {{24 26.5}} :U-turn_space {{33 35}} :Wheelbase {{-inf 93}} :Width {{-inf 66}} :domestic {1} :manual_transmission_available {1} :type {Small}}
+{:Air_Bags_standard {{-inf 0}} :Drive_train_type {{0 1}} :Engine_revolutions_per_mile {{2710 inf}} :Engine_size {{-inf 1.6}} :Fuel_tank_capacity {{-inf 11.1}} :Horsepower {{-inf 73}} :Length {{-inf 163}} :Passenger_capacity {{-inf 4}} :RPM {{5800 inf}} :Rear_seat_room {{24 26.5}} :U-turn_space {{33 35}} :Wheelbase {{-inf 93}} :Width {{-inf 66}} :domestic {1} :manual_transmission_available {1} :type {Small}}
+{:Air_Bags_standard {{-inf 0}} :Drive_train_type {{0 1}} :Engine_revolutions_per_mile {{2710 inf}} :Engine_size {{-inf 1.6}} :Fuel_tank_capacity {{-inf 11.1}} :Horsepower {{-inf 73}} :Length {{-inf 163}} :Passenger_capacity {{-inf 4}} :RPM {{5800 inf}} :Rear_seat_room {{24 26.5}} :U-turn_space {{33 35}} :Wheelbase {{-inf 93} {97 101}} :Width {{-inf 66}} :domestic {1} :manual_transmission_available {1} :type {Small}}
+{:Air_Bags_standard {{-inf 0}} :Drive_train_type {{0 1}} :Engine_revolutions_per_mile {{2710 inf}} :Engine_size {{-inf 1.6}} :Fuel_tank_capacity {{-inf 13.2}} :Horsepower {{-inf 73}} :Length {{-inf 163}} :Passenger_capacity {{-inf 4}} :RPM {{5800 inf}} :Rear_seat_room {{24 26.5}} :U-turn_space {{33 35}} :Wheelbase {{-inf 93} {97 101}} :Width {{-inf 66}} :domestic {1} :manual_transmission_available {1} :type {Small}}
+{:Air_Bags_standard {{-inf 0}} :Drive_train_type {{0 1}} :Engine_revolutions_per_mile {{2710 inf}} :Engine_size {{-inf 1.6}} :Fuel_tank_capacity {{-inf 13.2}} :Horsepower {{-inf 73}} :Length {{-inf 163}} :Number_of_cylinders {{3 5}} :Passenger_capacity {{-inf 4}} :RPM {{5800 inf}} :Rear_seat_room {{24 26.5}} :U-turn_space {{33 35}} :Wheelbase {{-inf 93} {97 101}} :Width {{-inf 66}} :domestic {1} :manual_transmission_available {1} :type {Small}}
+{:Air_Bags_standard {{-inf 0}} :Drive_train_type {{0 1}} :Engine_revolutions_per_mile {{2710 inf}} :Engine_size {{-inf 1.6}} :Fuel_tank_capacity {{-inf 13.2}} :Horsepower {{-inf 73}} :Length {{-inf 163}} :Number_of_cylinders {{-inf 5}} :Passenger_capacity {{-inf 4}} :RPM {{5800 inf}} :Rear_seat_room {{24 26.5}} :U-turn_space {{33 35}} :Wheelbase {{-inf 93} {97 101}} :Width {{-inf 66}} :domestic {1} :manual_transmission_available {1} :type {Small}}
+{:Air_Bags_standard {{-inf 0}} :Drive_train_type {{0 1}} :Engine_revolutions_per_mile {{2710 inf}} :Engine_size {{-inf 1.6}} :Fuel_tank_capacity {{-inf 13.2}} :Horsepower {{-inf 73}} :Length {{-inf 163}} :Number_of_cylinders {{-inf 5}} :Passenger_capacity {{-inf 4}} :RPM {{5800 inf}} :Rear_seat_room {{24 26.5}} :U-turn_space {{-inf 35}} :Wheelbase {{-inf 93} {97 101}} :Width {{-inf 66}} :domestic {1} :manual_transmission_available {1} :type {Small}}
+{:Air_Bags_standard {{-inf 0}} :Drive_train_type {{0 1}} :Engine_revolutions_per_mile {{2710 inf}} :Engine_size {{-inf 1.6}} :Fuel_tank_capacity {{-inf 13.2}} :Horsepower {{-inf 73}} :Length {{-inf 163}} :Luggage_capacity {{-inf 10}} :Number_of_cylinders {{-inf 5}} :Passenger_capacity {{-inf 4}} :RPM {{5800 inf}} :Rear_seat_room {{24 26.5}} :U-turn_space {{-inf 35}} :Wheelbase {{-inf 93} {97 101}} :Width {{-inf 66}} :domestic {1} :manual_transmission_available {1} :type {Small}}
+{:Air_Bags_standard {{-inf 0}} :Drive_train_type {{0 1}} :Engine_revolutions_per_mile {{2710 inf}} :Engine_size {{-inf 1.6}} :Fuel_tank_capacity {{-inf 13.2}} :Horsepower {{-inf 73}} :Length {{-inf 163}} :Luggage_capacity {{-inf 10}} :Number_of_cylinders {{-inf 5}} :Passenger_capacity {{-inf 4}} :RPM {{5800 inf}} :Rear_seat_room {{24 27.5}} :U-turn_space {{-inf 35}} :Wheelbase {{-inf 93} {97 101}} :Width {{-inf 66}} :domestic {1} :manual_transmission_available {1} :type {Small}}
+{:Air_Bags_standard {{-inf 0}} :Drive_train_type {{0 1}} :Engine_revolutions_per_mile {{2710 inf}} :Engine_size {{-inf 1.6}} :Fuel_tank_capacity {{-inf 13.2}} :Horsepower {{-inf 73}} :Length {{-inf 163}} :Luggage_capacity {{-inf 11}} :Number_of_cylinders {{-inf 5}} :Passenger_capacity {{-inf 4}} :RPM {{5800 inf}} :Rear_seat_room {{24 27.5}} :U-turn_space {{-inf 35}} :Wheelbase {{-inf 93} {97 101}} :Width {{-inf 66}} :domestic {1} :manual_transmission_available {1} :type {Small}}
+{:Air_Bags_standard {{-inf 0}} :Drive_train_type {{0 1}} :Engine_revolutions_per_mile {{2710 inf}} :Engine_size {{-inf 1.6}} :Fuel_tank_capacity {{-inf 13.2}} :Horsepower {{-inf 73} {85 105}} :Length {{-inf 163}} :Luggage_capacity {{-inf 11}} :Number_of_cylinders {{-inf 5}} :Passenger_capacity {{-inf 4}} :RPM {{5800 inf}} :Rear_seat_room {{24 27.5}} :U-turn_space {{-inf 35}} :Wheelbase {{-inf 93} {97 101}} :Width {{-inf 66}} :domestic {1} :manual_transmission_available {1} :type {Small}}
+{:Air_Bags_standard {{-inf 0}} :Drive_train_type {{0 1}} :Engine_revolutions_per_mile {{2710 inf}} :Engine_size {{-inf 1.6}} :Fuel_tank_capacity {{-inf 13.2}} :Horsepower {{-inf 73} {85 105}} :Length {{-inf 174}} :Luggage_capacity {{-inf 11}} :Number_of_cylinders {{-inf 5}} :Passenger_capacity {{-inf 4}} :RPM {{5800 inf}} :Rear_seat_room {{24 27.5}} :U-turn_space {{-inf 35}} :Wheelbase {{-inf 93} {97 101}} :Width {{-inf 66}} :domestic {1} :manual_transmission_available {1} :type {Small}}
+{:Air_Bags_standard {{-inf 0}} :Drive_train_type {{0 1}} :Engine_revolutions_per_mile {{2710 inf}} :Engine_size {{-inf 1.6}} :Fuel_tank_capacity {{-inf 13.2}} :Horsepower {{-inf 73} {85 105}} :Length {{-inf 174}} :Luggage_capacity {{-inf 11}} :Number_of_cylinders {{-inf 5}} :Passenger_capacity {{-inf 4}} :RPM {{5400 inf}} :Rear_seat_room {{24 27.5}} :U-turn_space {{-inf 35}} :Wheelbase {{-inf 93} {97 101}} :Width {{-inf 66}} :domestic {1} :manual_transmission_available {1} :type {Small}}
+{:Air_Bags_standard {{-inf 0}} :Drive_train_type {{0 1}} :Engine_revolutions_per_mile {{2710 inf}} :Engine_size {{-inf 1.6}} :Fuel_tank_capacity {{-inf 13.2}} :Horsepower {{-inf 73} {85 105}} :Length {{-inf 174}} :Luggage_capacity {{-inf 11}} :Number_of_cylinders {{-inf 5}} :Passenger_capacity {{-inf 4}} :RPM {{5400 inf}} :Rear_seat_room {{24 27.5}} :U-turn_space {{-inf 35}} :Wheelbase {{-inf 93} {97 101}} :Width {{-inf 66}} :domestic {1} :maker {Suzuki} :manual_transmission_available {1} :type {Small}}
+{:Air_Bags_standard {{-inf 0}} :Drive_train_type {{0 1}} :Engine_revolutions_per_mile {{2710 inf}} :Engine_size {{-inf 1.6}} :Fuel_tank_capacity {{-inf 13.2}} :Horsepower {{-inf 73} {85 105}} :Length {{-inf 174}} :Luggage_capacity {{-inf 11}} :Number_of_cylinders {{-inf 5}} :Passenger_capacity {{-inf 4}} :RPM {{5400 inf}} :Rear_seat_room {{24 27.5}} :U-turn_space {{-inf 35}} :Wheelbase {{-inf 93} {97 101}} :Width {{-inf 66}} :domestic {1} :maker {Eagle Suzuki} :manual_transmission_available {1} :type {Small}}
+{:Air_Bags_standard {{-inf 0}} :Drive_train_type {{0 1}} :Engine_revolutions_per_mile {{2710 inf}} :Engine_size {{-inf 1.6}} :Fuel_tank_capacity {{-inf 13.2}} :Horsepower {{-inf 73} {85 105}} :Length {{-inf 174}} :Luggage_capacity {{-inf 11}} :Number_of_cylinders {{-inf 5}} :Passenger_capacity {{-inf 4}} :RPM {{5400 inf}} :Rear_seat_room {{24 27.5}} :U-turn_space {{-inf 35}} :Wheelbase {{-inf 93} {97 101}} :Width {{-inf 66}} :domestic {1} :maker {Eagle Pontiac Suzuki} :manual_transmission_available {1} :type {Small}}
+{:Air_Bags_standard {{-inf 0}} :Drive_train_type {{0 1}} :Engine_revolutions_per_mile {{2710 inf}} :Engine_size {{-inf 1.6}} :Fuel_tank_capacity {{-inf 13.2}} :Horsepower {{-inf 73} {85 105}} :Length {{-inf 174}} :Luggage_capacity {{-inf 11}} :Number_of_cylinders {{-inf 5}} :Passenger_capacity {{-inf 4}} :RPM {{5400 inf}} :Rear_seat_room {{24 27.5}} :U-turn_space {{-inf 35}} :Wheelbase {{-inf 93} {97 101}} :Width {{-inf 66}} :domestic {1} :maker {Eagle Geo Pontiac Suzuki} :manual_transmission_available {1} :type {Small}}
+{:Air_Bags_standard {{-inf 0}} :Drive_train_type {{0 1}} :Engine_revolutions_per_mile {{2710 inf}} :Engine_size {{-inf 1.6}} :Fuel_tank_capacity {{-inf 13.2}} :Horsepower {{-inf 73} {85 105}} :Length {{-inf 174}} :Luggage_capacity {{-inf 11}} :Number_of_cylinders {{-inf 5}} :Passenger_capacity {{-inf 5}} :RPM {{5400 inf}} :Rear_seat_room {{24 27.5}} :U-turn_space {{-inf 35}} :Wheelbase {{-inf 93} {97 101}} :Width {{-inf 66}} :domestic {1} :maker {Eagle Geo Pontiac Suzuki} :manual_transmission_available {1} :type {Small}}
+{:Air_Bags_standard {{-inf 0}} :Drive_train_type {{0 1}} :Engine_revolutions_per_mile {{2710 inf}} :Engine_size {{-inf 1.6}} :Fuel_tank_capacity {{-inf 13.2}} :Horsepower {{-inf 73} {85 105}} :Length {{-inf 174}} :Luggage_capacity {{-inf 11}} :Number_of_cylinders {{-inf 5}} :Passenger_capacity {{-inf 5}} :RPM {{5400 inf}} :Rear_seat_room {{24 27.5}} :U-turn_space {{-inf 35}} :Wheelbase {{-inf 93} {97 101}} :Width {{-inf 66}} :maker {Eagle Geo Pontiac Suzuki} :manual_transmission_available {1} :type {Small}}
+{:Air_Bags_standard {{-inf 0}} :Drive_train_type {{0 1}} :Engine_revolutions_per_mile {{2710 inf}} :Engine_size {{-inf 1.6}} :Fuel_tank_capacity {{-inf 13.2}} :Horsepower {{-inf 73} {85 105}} :Length {{-inf 174}} :Luggage_capacity {{-inf 11}} :Number_of_cylinders {{-inf 5}} :Passenger_capacity {{-inf 5}} :RPM {{5400 inf}} :Rear_seat_room {{24 27.5}} :U-turn_space {{-inf 35}} :Wheelbase {{-inf 93} {97 101}} :Width {{-inf 66}} :maker {Eagle Ford Geo Pontiac Suzuki} :manual_transmission_available {1} :type {Small}}
+{:Air_Bags_standard {{-inf 0}} :Drive_train_type {{0 1}} :Engine_revolutions_per_mile {{2710 inf}} :Engine_size {{-inf 1.6}} :Fuel_tank_capacity {{-inf 13.2}} :Horsepower {{-inf 73} {85 105}} :Length {{-inf 174}} :Luggage_capacity {{-inf 12}} :Number_of_cylinders {{-inf 5}} :Passenger_capacity {{-inf 5}} :RPM {{5400 inf}} :Rear_seat_room {{24 27.5}} :U-turn_space {{-inf 35}} :Wheelbase {{-inf 93} {97 101}} :Width {{-inf 66}} :maker {Eagle Ford Geo Pontiac Suzuki} :manual_transmission_available {1} :type {Small}}
+{:Air_Bags_standard {{-inf 0}} :Drive_train_type {{0 1}} :Engine_revolutions_per_mile {{2710 inf}} :Engine_size {{-inf 1.6}} :Fuel_tank_capacity {{-inf 13.2}} :Horsepower {{-inf 73} {85 105}} :Length {{-inf 174}} :Luggage_capacity {{-inf 12}} :Number_of_cylinders {{-inf 5}} :Passenger_capacity {{-inf 5}} :RPM {{5400 inf}} :Rear_seat_room {{24 27.5}} :U-turn_space {{-inf 36}} :Wheelbase {{-inf 93} {97 101}} :Width {{-inf 66}} :maker {Eagle Ford Geo Pontiac Suzuki} :manual_transmission_available {1} :type {Small}}
+{:Air_Bags_standard {{-inf 0}} :Drive_train_type {{0 1}} :Engine_revolutions_per_mile {{2710 inf}} :Engine_size {{-inf 1.6}} :Fuel_tank_capacity {{-inf 13.2}} :Horsepower {{-inf 105}} :Length {{-inf 174}} :Luggage_capacity {{-inf 12}} :Number_of_cylinders {{-inf 5}} :Passenger_capacity {{-inf 5}} :RPM {{5400 inf}} :Rear_seat_room {{24 27.5}} :U-turn_space {{-inf 36}} :Wheelbase {{-inf 93} {97 101}} :Width {{-inf 66}} :maker {Eagle Ford Geo Pontiac Suzuki} :manual_transmission_available {1} :type {Small}}
+{:Air_Bags_standard {{-inf 0}} :Drive_train_type {{0 1}} :Engine_revolutions_per_mile {{2710 inf}} :Engine_size {{-inf 1.6}} :Fuel_tank_capacity {{-inf 13.2}} :Horsepower {{-inf 105}} :Length {{-inf 174}} :Luggage_capacity {{-inf 12}} :Number_of_cylinders {{-inf 5}} :Passenger_capacity {{-inf 5}} :RPM {{5400 inf}} :Rear_seat_room {{24 27.5}} :U-turn_space {{-inf 36}} :Wheelbase {{-inf 93} {97 101}} :Width {{-inf 66}} :maker {Dodge Eagle Ford Geo Pontiac Suzuki} :manual_transmission_available {1} :type {Small}}
+{:Air_Bags_standard {{-inf 0}} :Drive_train_type {{0 1}} :Engine_revolutions_per_mile {{2710 inf}} :Engine_size {{-inf 1.6}} :Fuel_tank_capacity {{-inf 13.2}} :Horsepower {{-inf 105}} :Length {{-inf 174}} :Luggage_capacity {{-inf 12}} :Number_of_cylinders {{-inf 5}} :Passenger_capacity {{-inf 5}} :RPM {{4800 5000} {5400 inf}} :Rear_seat_room {{24 27.5}} :U-turn_space {{-inf 36}} :Wheelbase {{-inf 93} {97 101}} :Width {{-inf 66}} :maker {Dodge Eagle Ford Geo Pontiac Suzuki} :manual_transmission_available {1} :type {Small}}
+{:Air_Bags_standard {{-inf 0}} :Drive_train_type {{0 1}} :Engine_revolutions_per_mile {{2340 2515} {2710 inf}} :Engine_size {{-inf 1.6}} :Fuel_tank_capacity {{-inf 13.2}} :Horsepower {{-inf 105}} :Length {{-inf 174}} :Luggage_capacity {{-inf 12}} :Number_of_cylinders {{-inf 5}} :Passenger_capacity {{-inf 5}} :RPM {{4800 5000} {5400 inf}} :Rear_seat_room {{24 27.5}} :U-turn_space {{-inf 36}} :Wheelbase {{-inf 93} {97 101}} :Width {{-inf 66}} :maker {Dodge Eagle Ford Geo Pontiac Suzuki} :manual_transmission_available {1} :type {Small}}
+{:Air_Bags_standard {{-inf 0}} :Drive_train_type {{0 1}} :Engine_revolutions_per_mile {{2340 2515} {2710 inf}} :Engine_size {{-inf 1.6}} :Fuel_tank_capacity {{-inf 13.2}} :Horsepower {{-inf 105}} :Length {{-inf 174}} :Luggage_capacity {{-inf 12} {16.332789239991 inf}} :Number_of_cylinders {{-inf 5}} :Passenger_capacity {{-inf 5}} :RPM {{4800 5000} {5400 inf}} :Rear_seat_room {{24 27.5}} :U-turn_space {{-inf 36}} :Wheelbase {{-inf 93} {97 101}} :Width {{-inf 66}} :maker {Dodge Eagle Ford Geo Pontiac Suzuki} :manual_transmission_available {1} :type {Small}}
+
+-----------
+explain=	{:Width {{-inf 66}} :type {Small}}
+all               	{:CityMPG+ 21.0 :Class- 17.7 :HighwayMPG+ 28.0 :N 93 :Weight- 3040.0}	{:CityMPG+ 4.65 :Class- 9.57 :HighwayMPG+ 5.04 :N 93 :Weight- 585.27}
+sway with     5 evals	{:CityMPG+ 31.0 :Class- 8.6 :HighwayMPG+ 33.0 :N 6 :Weight- 1965.0}	{:CityMPG+ 3.88 :Class- 0.7 :HighwayMPG+ 3.88 :N 6 :Weight- 232.56}
+xpln on       5 evals	{:CityMPG+ 31.0 :Class- 8.4 :HighwayMPG+ 33.0 :N 8 :Weight- 2045.0}	{:CityMPG+ 5.43 :Class- 0.93 :HighwayMPG+ 5.04 :N 8 :Weight- 251.94}
+sort with    93 evals	{:CityMPG+ 33.0 :Class- 8.6 :HighwayMPG+ 41.0 :N 6 :Weight- 2045.0}	{:CityMPG+ 4.26 :Class- 0.54 :HighwayMPG+ 3.49 :N 6 :Weight- 253.88}
