@@ -34,7 +34,7 @@ OPTIONS:
   -b  --bins    initial number of bins       = 16
   -c  --cliffs  cliff's delta threshold      = .147
   -d  --d       different is over sd*d       = .35
-  -f  --file    data file                    = ../etc/data/auto93.csv
+  -f  --file    data file                    = ../../etc/data/auto93.csv
   -F  --Far     distance to distant          = .95
   -g  --go      start-up action              = nothing
   -h  --help    show help                    = false
@@ -42,7 +42,7 @@ OPTIONS:
   -m  --min     size of smallest cluster     = .5
   -M  --Max     numbers                      = 512
   -p  --p       dist coefficient             = 2
-  -r  --rest    how many of rest to sample   = 4
+  -r  --rest    how many of rest to sample   = 10
   -R  --Reuse   child splits reuse a parent pole = true
   -s  --seed    random number seed           = 937162211
 ]]
@@ -125,7 +125,7 @@ function prune(rule, maxSize,     n)
   n=0
   for txt,ranges in pairs(rule) do
     n = n+1
-    if #ranges == maxSize[txt] then  n=n+1; rule[txt] = nil end end
+    if #ranges == maxSize[txt] then  n=n-1; rule[txt] = nil end end
   if n > 0 then return rule end end
   
 -- Create a `DATA` to contain `rows`, summarized in `cols`.
@@ -245,6 +245,7 @@ function dist(data,t1,t2,  cols,    d,dist1,sym,num)
   function sym(x,y) 
     return x==y and 0 or 1 end
   function num(x,y) 
+    
     if x=="?" then x= y<.5 and 1 or 1 end	
     if y=="?" then y= x<.5 and 1 or 1 end	
     return m.abs(x-y) end 
@@ -285,16 +286,19 @@ function betters(data,  n,    tmp)
 -- `some` of the data. Also, to avoid outliers, only look
 -- `is.Far=.95` (say) of the way across the space. 
 function half(data,  rows,cols,above)
-  local left,right,evals,far,gap,some,proj,cos,tmp,A,B,c = {},{}
+  local left,right,evals,far,gap,some,around,proj,cos,tmp,A,B,c = {},{}
   function gap(r1,r2) return dist(data, r1, r2, cols) end
   function cos(a,b,c) return (a^2 + c^2 - b^2)/(2*c) end
   function proj(r)    return {row=r, x=cos(gap(r,A), gap(r,B),c)} end
+  function around(row1,rows) 
+    return sort(map(rows,function(row2) return {row=row2, d=gap(row1,row2)} end ),lt"d") end
+  function far(row,rows)
+    return around(row,rows)[(#rows*is.Far)//1].row end
   rows = rows or data.rows
   some = many(rows,is.Halves)
-  A    = (is.Reuse and above) or any(some)
-  tmp  = sort(map(some,function(r) return {row=r, d=gap(r,A)} end ),lt"d")
-  far  = tmp[(#tmp*is.Far)//1]
-  B,c  = far.row, far.d
+  A    = (is.Reuse and above) or far(any(some),some)
+  B    = far(A,some)
+  c    = gap(A,B)
   for n,two in pairs(sort(map(rows,proj),lt"x")) do
     push(n <= #rows/2 and left or right, two.row) end
   evals = is.Reuse and above and 1 or 2
@@ -577,7 +581,7 @@ keys = function(t)      return sort(kap(t,function(k,_) return k end)) end
 
 -- Map a function on table (results in items key1,key2,...)
 function kap(t, fun,     u) 
-  u={}; for k,v in pairs(t) do v,k=fun(k,v); u[k or (1+#u)]=v; end; return u end
+  u={}; for k,v in pairs(t or {}) do v,k=fun(k,v); u[k or (1+#u)]=v; end; return u end
 
 -- Return the `p`-ratio item in `t`; e.g. `per(t,.5)` returns the medium.
 function per(t,p) 
@@ -774,14 +778,15 @@ go("xpln","explore explanation sets", function(     data,data1,rule,most,_,best,
   data=DATA(is.file)
   best,rest,evals = sway(data)
   rule,most= xpln(data,best,rest)
-  print("\n-----------\nexplain=", o(showRule(rule)))
-  data1= DATA(data,selects(rule,data.rows))
-  print("all               ",o(stats(data)),o(stats(data,div)))
-  print(fmt("sway with %5s evals",evals),o(stats(best)),o(stats(best,div)))
-  print(fmt("xpln on   %5s evals",evals),o(stats(data1)),o(stats(data1,div)))
-  top,_ = betters(data, #best.rows)
-  top = DATA(data,top)
-  print(fmt("sort with %5s evals",#data.rows) ,o(stats(top)), o(stats(top,div)))
+  if rule then
+    print("\n-----------\nexplain=", o(showRule(rule)))
+    data1= DATA(data,selects(rule,data.rows))
+    print("all               ",o(stats(data)),o(stats(data,div)))
+    print(fmt("sway with %5s evals",evals),o(stats(best)),o(stats(best,div)))
+    print(fmt("xpln on   %5s evals",evals),o(stats(data1)),o(stats(data1,div)))
+    top,_ = betters(data, #best.rows)
+    top = DATA(data,top)
+    print(fmt("sort with %5s evals",#data.rows) ,o(stats(top)), o(stats(top,div))) end
 end)  
 
 -- ## Start-up
