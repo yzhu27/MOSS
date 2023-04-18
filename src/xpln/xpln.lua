@@ -429,7 +429,7 @@ function xpln(data,best,rest,      maxSizes,tmp,v,score)
   function score(ranges,       rule,bestr,restr)
     rule = RULE(ranges,maxSizes)
     if rule then
-      oo(showRule(rule))
+      -- oo(showRule(rule))
       bestr= selects(rule, best.rows)
       restr= selects(rule, rest.rows)
       if #bestr + #restr > 0 then 
@@ -438,16 +438,16 @@ function xpln(data,best,rest,      maxSizes,tmp,v,score)
   tmp,maxSizes = {},{}
   for _,ranges in pairs(bins(data.cols.x,{best=best.rows, rest=rest.rows})) do
     maxSizes[ranges[1].txt] = #ranges
-    print""
+    -- print""
     for _,range in pairs(ranges) do
-      print(range.txt, range.lo, range.hi)
+      -- print(range.txt, range.lo, range.hi)
       push(tmp, {range=range, max=#ranges,val= v(range.y.has)})  end end
   local rule,most=firstN(sort(tmp,gt"val"),score)
   return rule,most end
 
 function firstN(sortedRanges,scoreFun,           first,useful,most,out)
-  print""
-  map(sortedRanges,function(r) print(r.range.txt,r.range.lo,r.range.hi,rnd(r.val),o(r.range.y.has)) end)
+  -- print""
+  -- map(sortedRanges,function(r) print(r.range.txt,r.range.lo,r.range.hi,rnd(r.val),o(r.range.y.has)) end)
   first = sortedRanges[1].val
   function useful(range)
     if range.val>.05 and range.val> first/10 then return range end

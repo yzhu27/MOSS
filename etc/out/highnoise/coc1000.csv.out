@@ -1,0 +1,9 @@
+
+▶️  xpln ------------------------------------------------------------
+
+-----------
+explain=	{:DATA {{2 3}}}
+all               	{:AEXP- 3.0 :EFFORT- 19764.0 :LOC+ 1081.0 :N 1000 :PLEX- 3.0 :RISK- 5.0}	{:AEXP- 1.55 :EFFORT- 25559.3 :LOC+ 587.21 :N 1000 :PLEX- 1.55 :RISK- 5.81}
+sway with     6 evals	{:AEXP- 3.0 :EFFORT- 25624.0 :LOC+ 919.0 :N 31 :PLEX- 3.0 :RISK- 6.0}	{:AEXP- 1.16 :EFFORT- 21304.65 :LOC+ 486.05 :N 31 :PLEX- 1.16 :RISK- 6.59}
+xpln on       6 evals	{:AEXP- 3.0 :EFFORT- 17890.0 :LOC+ 986.0 :N 229 :PLEX- 3.0 :RISK- 6.0}	{:AEXP- 1.16 :EFFORT- 25921.32 :LOC+ 602.71 :N 229 :PLEX- 1.55 :RISK- 5.43}
+sort with  1000 evals	{:AEXP- 2.0 :EFFORT- 30241.0 :LOC+ 1540.0 :N 31 :PLEX- 1.0 :RISK- 3.0}	{:AEXP- 0.39 :EFFORT- 14540.7 :LOC+ 344.96 :N 31 :PLEX- 0.39 :RISK- 4.26}

@@ -20,13 +20,14 @@ with open(input, newline='') as csvfile_in, open(output, 'w', newline='') as csv
 
     headers = next(reader)
     writer.writerow(headers)
+
+    lowercase_headers = [header for header in headers if header[0].islower()]
     
     for row in reader:
         if random.random() < q:
-
-            index = random.randint(0, len(row)-1)
-            if random.random() < p:
-                row[index] = "?"
+            for i in range(len(row)):
+                if headers[i] not in lowercase_headers and random.random() < p:
+                    row[i] = "?"
 
         writer.writerow(row)
 

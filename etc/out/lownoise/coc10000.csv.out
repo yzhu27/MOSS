@@ -1,0 +1,9 @@
+
+▶️  xpln ------------------------------------------------------------
+
+-----------
+explain=	{:Tool {{1 2}}}
+all               	{:Effort- 17848.0 :Loc+ 1062.0 :N 10000 :Risk- 5.0}	{:Effort- 24994.19 :Loc+ 612.4 :N 10000 :Risk- 5.43}
+sway with     8 evals	{:Effort- 30149.0 :Loc+ 1011.0 :N 78 :Risk- 7.0}	{:Effort- 33547.67 :Loc+ 536.43 :N 78 :Risk- 5.43}
+xpln on       8 evals	{:Effort- 25538.0 :Loc+ 993.0 :N 1335 :Risk- 7.0}	{:Effort- 32403.49 :Loc+ 624.42 :N 1335 :Risk- 6.59}
+sort with 10000 evals	{:Effort- 17733.0 :Loc+ 1959.0 :N 78 :Risk- 0.0}	{:Effort- 9567.44 :Loc+ 48.84 :N 78 :Risk- 0.39}

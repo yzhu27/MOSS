@@ -1,0 +1,9 @@
+
+▶️  xpln ------------------------------------------------------------
+
+-----------
+explain=	{:Bframes {{-inf 7}} :Seek {{-inf 291}} :Threads {{-inf 27}}}
+all               	{:Energy- 1216.95 :N 53662 :PSNR- 45.89}	{:Energy- 1206.72 :N 53662 :PSNR- 5.38}
+sway with     9 evals	{:Energy- 2175.12 :N 209 :PSNR- 46.66}	{:Energy- 739.79 :N 209 :PSNR- 4.37}
+xpln on       9 evals	{:Energy- 2286.42 :N 4685 :PSNR- 46.83}	{:Energy- 2526.65 :N 4685 :PSNR- 4.23}
+sort with 53662 evals	{:Energy- 465.94 :N 209 :PSNR- 26.7}	{:Energy- 224.31 :N 209 :PSNR- 2.72}

@@ -1,0 +1,9 @@
+
+▶️  xpln ------------------------------------------------------------
+
+-----------
+explain=	{:B_bias {{32 inf}} :no_cabac {1}}
+all               	{:Energy- 1237.73 :N 53662 :PSNR- 45.67}	{:Energy- 1237.85 :N 53662 :PSNR- 5.49}
+sway with     9 evals	{:Energy- 1303.14 :N 210 :PSNR- 42.72}	{:Energy- 349.6 :N 210 :PSNR- 3.79}
+xpln on       9 evals	{:Energy- 1036.57 :N 5401 :PSNR- 45.58}	{:Energy- 568.71 :N 5401 :PSNR- 5.25}
+sort with 53662 evals	{:Energy- 465.94 :N 210 :PSNR- 26.7}	{:Energy- 224.31 :N 210 :PSNR- 2.72}

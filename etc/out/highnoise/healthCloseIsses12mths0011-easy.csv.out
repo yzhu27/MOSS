@@ -1,0 +1,9 @@
+
+▶️  xpln ------------------------------------------------------------
+
+-----------
+explain=	{:criterion {absolute_error}}
+all               	{:ACC+ -12.18 :MRE- 119.4 :N 10000 :PRED40+ 0.0}	{:ACC+ 4.99 :MRE- 46.94 :N 10000 :PRED40+ 32.3}
+sway with     8 evals	{:ACC+ 0.0 :MRE- 0.0 :N 78 :PRED40+ 83.33}	{:ACC+ 0.62 :MRE- 39.41 :N 78 :PRED40+ 32.3}
+xpln on       8 evals	{:ACC+ 0.0 :MRE- 0.0 :N 3615 :PRED40+ 83.33}	{:ACC+ 0.9 :MRE- 41.67 :N 3615 :PRED40+ 32.3}
+sort with 10000 evals	{:ACC+ 0.0 :MRE- 0.0 :N 78 :PRED40+ 83.33}	{:ACC+ 0.0 :MRE- 0.0 :N 78 :PRED40+ 0.0}

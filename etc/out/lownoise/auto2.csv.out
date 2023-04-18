@@ -1,0 +1,9 @@
+
+▶️  xpln ------------------------------------------------------------
+
+-----------
+explain=	{:Length {{-inf 174}} :type {Small}}
+all               	{:CityMPG+ 21.0 :Class- 17.7 :HighwayMPG+ 28.0 :N 93 :Weight- 3040.0}	{:CityMPG+ 4.65 :Class- 9.57 :HighwayMPG+ 5.04 :N 93 :Weight- 585.27}
+sway with     5 evals	{:CityMPG+ 29.0 :Class- 10.0 :HighwayMPG+ 33.0 :N 5 :Weight- 2345.0}	{:CityMPG+ 6.59 :Class- 1.47 :HighwayMPG+ 5.43 :N 5 :Weight- 253.88}
+xpln on       5 evals	{:CityMPG+ 29.0 :Class- 9.1 :HighwayMPG+ 33.0 :N 16 :Weight- 2325.0}	{:CityMPG+ 6.2 :Class- 1.4 :HighwayMPG+ 5.43 :N 16 :Weight- 271.32}
+sort with    93 evals	{:CityMPG+ 39.0 :Class- 8.6 :HighwayMPG+ 43.0 :N 5 :Weight- 2045.0}	{:CityMPG+ 5.43 :Class- 1.43 :HighwayMPG+ 5.04 :N 5 :Weight- 253.88}

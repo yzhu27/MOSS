@@ -1,0 +1,9 @@
+
+▶️  xpln ------------------------------------------------------------
+
+-----------
+explain=	{:Seek {{-inf 225}} :no_mbtree {0} :no_scenecut {1}}
+all               	{:Energy- 1237.92 :N 53662 :PSNR- 45.95}	{:Energy- 1213.85 :N 53662 :PSNR- 5.52}
+sway with     9 evals	{:Energy- 2161.5 :N 209 :PSNR- 45.72}	{:Energy- 2689.29 :N 209 :PSNR- 7.52}
+xpln on       9 evals	{:Energy- 1980.27 :N 2488 :PSNR- 45.51}	{:Energy- 1406.19 :N 2488 :PSNR- 8.12}
+sort with 53662 evals	{:Energy- 465.94 :N 209 :PSNR- 26.7}	{:Energy- 224.31 :N 209 :PSNR- 2.72}
