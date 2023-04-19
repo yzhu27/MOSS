@@ -4,6 +4,6 @@
 -----------
 explain=	{:Luggage_capacity {{11 13}} :domestic {1}}
 all               	{:CityMPG+ 21.0 :Class- 17.7 :HighwayMPG+ 28.0 :N 93 :Weight- 3040.0}	{:CityMPG+ 4.65 :Class- 9.57 :HighwayMPG+ 5.04 :N 93 :Weight- 585.27}
-sway with     5 evals	{:CityMPG+ 23.0 :Class- 11.3 :HighwayMPG+ 30.0 :N 6 :Weight- 2575.0}	{:CityMPG+ 1.16 :Class- 2.56 :HighwayMPG+ 2.33 :N 6 :Weight- 335.27}
-xpln on       5 evals	{:CityMPG+ 18.0 :Class- 16.3 :HighwayMPG+ 25.0 :N 14 :Weight- 3325.0}	{:CityMPG+ 5.43 :Class- 7.13 :HighwayMPG+ 5.04 :N 14 :Weight- 759.69}
-sort with    93 evals	{:CityMPG+ 33.0 :Class- 8.6 :HighwayMPG+ 41.0 :N 6 :Weight- 2045.0}	{:CityMPG+ 4.26 :Class- 0.54 :HighwayMPG+ 3.49 :N 6 :Weight- 253.88}
+sway with evals	{:CityMPG+ 23.0 :Class- 11.3 :HighwayMPG+ 30.0 :N 6 :Weight- 2575.0}	{:CityMPG+ 1.16 :Class- 2.56 :HighwayMPG+ 2.33 :N 6 :Weight- 335.27}
+xpln on   evals	{:CityMPG+ 18.0 :Class- 16.3 :HighwayMPG+ 25.0 :N 14 :Weight- 3325.0}	{:CityMPG+ 5.43 :Class- 7.13 :HighwayMPG+ 5.04 :N 14 :Weight- 759.69}
+sort with evals	{:CityMPG+ 33.0 :Class- 8.6 :HighwayMPG+ 41.0 :N 6 :Weight- 2045.0}	{:CityMPG+ 4.26 :Class- 0.54 :HighwayMPG+ 3.49 :N 6 :Weight- 253.88}

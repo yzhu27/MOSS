@@ -4,6 +4,6 @@
 -----------
 explain=	{:Engine_revolutions_per_mile {{2805 inf}} :type {Small}}
 all               	{:CityMPG+ 21.0 :Class- 17.7 :HighwayMPG+ 28.0 :N 93 :Weight- 3040.0}	{:CityMPG+ 4.65 :Class- 9.57 :HighwayMPG+ 5.04 :N 93 :Weight- 585.27}
-sway with     5 evals	{:CityMPG+ 31.0 :Class- 8.4 :HighwayMPG+ 37.0 :N 5 :Weight- 2045.0}	{:CityMPG+ 6.59 :Class- 0.7 :HighwayMPG+ 6.59 :N 5 :Weight- 253.88}
-xpln on       5 evals	{:CityMPG+ 31.0 :Class- 9.0 :HighwayMPG+ 37.0 :N 9 :Weight- 2055.0}	{:CityMPG+ 5.43 :Class- 1.36 :HighwayMPG+ 5.04 :N 9 :Weight- 308.14}
-sort with    93 evals	{:CityMPG+ 39.0 :Class- 8.6 :HighwayMPG+ 43.0 :N 5 :Weight- 2045.0}	{:CityMPG+ 5.43 :Class- 1.43 :HighwayMPG+ 5.04 :N 5 :Weight- 253.88}
+sway with evals	{:CityMPG+ 31.0 :Class- 8.4 :HighwayMPG+ 37.0 :N 5 :Weight- 2045.0}	{:CityMPG+ 6.59 :Class- 0.7 :HighwayMPG+ 6.59 :N 5 :Weight- 253.88}
+xpln on   evals	{:CityMPG+ 31.0 :Class- 9.0 :HighwayMPG+ 37.0 :N 9 :Weight- 2055.0}	{:CityMPG+ 5.43 :Class- 1.36 :HighwayMPG+ 5.04 :N 9 :Weight- 308.14}
+sort with evals	{:CityMPG+ 39.0 :Class- 8.6 :HighwayMPG+ 43.0 :N 5 :Weight- 2045.0}	{:CityMPG+ 5.43 :Class- 1.43 :HighwayMPG+ 5.04 :N 5 :Weight- 253.88}

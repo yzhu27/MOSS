@@ -4,6 +4,6 @@
 -----------
 explain=	{:Horsepower {{-inf 82}}}
 all               	{:CityMPG+ 21.0 :Class- 17.7 :HighwayMPG+ 28.0 :N 93 :Weight- 3040.0}	{:CityMPG+ 4.65 :Class- 9.57 :HighwayMPG+ 5.04 :N 93 :Weight- 585.27}
-sway with     5 evals	{:CityMPG+ 29.0 :Class- 8.4 :HighwayMPG+ 37.0 :N 6 :Weight- 2055.0}	{:CityMPG+ 5.43 :Class- 0.43 :HighwayMPG+ 3.88 :N 6 :Weight- 244.19}
-xpln on       5 evals	{:CityMPG+ 31.0 :Class- 8.4 :HighwayMPG+ 37.0 :N 7 :Weight- 2045.0}	{:CityMPG+ 5.43 :Class- 0.62 :HighwayMPG+ 3.88 :N 7 :Weight- 251.94}
-sort with    93 evals	{:CityMPG+ 33.0 :Class- 8.6 :HighwayMPG+ 41.0 :N 6 :Weight- 2045.0}	{:CityMPG+ 4.26 :Class- 0.54 :HighwayMPG+ 3.49 :N 6 :Weight- 253.88}
+sway with evals	{:CityMPG+ 29.0 :Class- 8.4 :HighwayMPG+ 37.0 :N 6 :Weight- 2055.0}	{:CityMPG+ 5.43 :Class- 0.43 :HighwayMPG+ 3.88 :N 6 :Weight- 244.19}
+xpln on   evals	{:CityMPG+ 31.0 :Class- 8.4 :HighwayMPG+ 37.0 :N 7 :Weight- 2045.0}	{:CityMPG+ 5.43 :Class- 0.62 :HighwayMPG+ 3.88 :N 7 :Weight- 251.94}
+sort with evals	{:CityMPG+ 33.0 :Class- 8.6 :HighwayMPG+ 41.0 :N 6 :Weight- 2045.0}	{:CityMPG+ 4.26 :Class- 0.54 :HighwayMPG+ 3.49 :N 6 :Weight- 253.88}

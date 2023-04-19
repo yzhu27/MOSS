@@ -41,7 +41,7 @@ def process_file(file_path, result):
 
 # 定义一个函数来处理一个文件夹
 def process_folder(folder_path):
-    data_dict = {}
+    data_dict = {'all': {}, 'sway with': {}, 'xpln on': {}, 'sort with': {}}
 
     for file_name in os.listdir(folder_path):
         if file_name.endswith('.out'):
@@ -60,6 +60,15 @@ for folder_path, _, file_names in os.walk(root_folder):
     folder_name = folder_name.split('.')[0]
     auto2_data[folder_name] = process_folder(folder_path)
 
-# 打印结果
-print(auto2_data)
+# print(auto2_data)
 
+def pretty_print_dict(d, indent=0):
+    for key, value in d.items():
+        print('\t' * indent + str(key))
+        if isinstance(value, dict):
+            pretty_print_dict(value, indent + 1)
+        else:
+            print('\t' * (indent + 1) + str(value))
+
+# 打印结果
+pretty_print_dict(auto2_data)

@@ -4,6 +4,6 @@
 -----------
 explain=	{:Number_of_cylinders {{-inf 4}}}
 all               	{:CityMPG+ 21.0 :Class- 17.7 :HighwayMPG+ 28.0 :N 93 :Weight- 3040.0}	{:CityMPG+ 4.65 :Class- 9.57 :HighwayMPG+ 5.04 :N 93 :Weight- 585.27}
-sway with     5 evals	{:CityMPG+ 23.0 :Class- 11.1 :HighwayMPG+ 30.0 :N 5 :Weight- 2530.0}	{:CityMPG+ 2.71 :Class- 1.59 :HighwayMPG+ 4.26 :N 5 :Weight- 271.32}
-xpln on       5 evals	{:CityMPG+ 24.0 :Class- 15.7 :HighwayMPG+ 30.0 :N 10 :Weight- 2895.0}	{:CityMPG+ 9.3 :Class- 8.37 :HighwayMPG+ 8.91 :N 10 :Weight- 753.88}
-sort with    93 evals	{:CityMPG+ 39.0 :Class- 8.6 :HighwayMPG+ 43.0 :N 5 :Weight- 2045.0}	{:CityMPG+ 5.43 :Class- 1.43 :HighwayMPG+ 5.04 :N 5 :Weight- 253.88}
+sway with evals	{:CityMPG+ 23.0 :Class- 11.1 :HighwayMPG+ 30.0 :N 5 :Weight- 2530.0}	{:CityMPG+ 2.71 :Class- 1.59 :HighwayMPG+ 4.26 :N 5 :Weight- 271.32}
+xpln on   evals	{:CityMPG+ 24.0 :Class- 15.7 :HighwayMPG+ 30.0 :N 10 :Weight- 2895.0}	{:CityMPG+ 9.3 :Class- 8.37 :HighwayMPG+ 8.91 :N 10 :Weight- 753.88}
+sort with evals	{:CityMPG+ 39.0 :Class- 8.6 :HighwayMPG+ 43.0 :N 5 :Weight- 2045.0}	{:CityMPG+ 5.43 :Class- 1.43 :HighwayMPG+ 5.04 :N 5 :Weight- 253.88}

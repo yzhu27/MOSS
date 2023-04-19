@@ -4,6 +4,6 @@
 -----------
 explain=	{:Fuel_tank_capacity {{-inf 13.2}}}
 all               	{:CityMPG+ 21.0 :Class- 17.7 :HighwayMPG+ 28.0 :N 93 :Weight- 3040.0}	{:CityMPG+ 4.65 :Class- 9.57 :HighwayMPG+ 5.04 :N 93 :Weight- 585.27}
-sway with     5 evals	{:CityMPG+ 31.0 :Class- 8.4 :HighwayMPG+ 33.0 :N 5 :Weight- 2045.0}	{:CityMPG+ 8.91 :Class- 1.05 :HighwayMPG+ 7.75 :N 5 :Weight- 323.64}
-xpln on       5 evals	{:CityMPG+ 30.0 :Class- 9.8 :HighwayMPG+ 36.0 :N 13 :Weight- 2285.0}	{:CityMPG+ 9.69 :Class- 2.6 :HighwayMPG+ 7.75 :N 13 :Weight- 310.08}
-sort with    93 evals	{:CityMPG+ 39.0 :Class- 8.6 :HighwayMPG+ 43.0 :N 5 :Weight- 2045.0}	{:CityMPG+ 5.43 :Class- 1.43 :HighwayMPG+ 5.04 :N 5 :Weight- 253.88}
+sway with evals	{:CityMPG+ 31.0 :Class- 8.4 :HighwayMPG+ 33.0 :N 5 :Weight- 2045.0}	{:CityMPG+ 8.91 :Class- 1.05 :HighwayMPG+ 7.75 :N 5 :Weight- 323.64}
+xpln on   evals	{:CityMPG+ 30.0 :Class- 9.8 :HighwayMPG+ 36.0 :N 13 :Weight- 2285.0}	{:CityMPG+ 9.69 :Class- 2.6 :HighwayMPG+ 7.75 :N 13 :Weight- 310.08}
+sort with evals	{:CityMPG+ 39.0 :Class- 8.6 :HighwayMPG+ 43.0 :N 5 :Weight- 2045.0}	{:CityMPG+ 5.43 :Class- 1.43 :HighwayMPG+ 5.04 :N 5 :Weight- 253.88}
