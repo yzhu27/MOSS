@@ -1,0 +1,9 @@
+
+▶️  xpln ------------------------------------------------------------
+
+-----------
+explain=	{:Fuel_tank_capacity {{11.9 14.5}} :type {Small}}
+all               	{:CityMPG+ 21.0 :Class- 17.7 :HighwayMPG+ 28.0 :N 93 :Weight- 3040.0}	{:CityMPG+ 4.65 :Class- 9.57 :HighwayMPG+ 5.04 :N 93 :Weight- 585.27}
+sway with     5 evals	{:CityMPG+ 28.0 :Class- 11.1 :HighwayMPG+ 36.0 :N 5 :Weight- 2440.0}	{:CityMPG+ 3.1 :Class- 1.01 :HighwayMPG+ 4.65 :N 5 :Weight- 155.04}
+xpln on       5 evals	{:CityMPG+ 29.0 :Class- 10.0 :HighwayMPG+ 33.0 :N 13 :Weight- 2350.0}	{:CityMPG+ 3.88 :Class- 1.63 :HighwayMPG+ 4.65 :N 13 :Weight- 238.37}
+sort with    93 evals	{:CityMPG+ 39.0 :Class- 8.6 :HighwayMPG+ 43.0 :N 5 :Weight- 2045.0}	{:CityMPG+ 5.43 :Class- 1.43 :HighwayMPG+ 5.04 :N 5 :Weight- 253.88}

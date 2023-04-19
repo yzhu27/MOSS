@@ -1,0 +1,180 @@
+
+▶️  xpln ------------------------------------------------------------
+
+-----------
+explain=	{:type {Small}}
+all               	{:CityMPG+ 21.0 :Class- 17.7 :HighwayMPG+ 28.0 :N 93 :Weight- 3040.0}	{:CityMPG+ 4.65 :Class- 9.57 :HighwayMPG+ 5.04 :N 93 :Weight- 585.27}
+sway with     5 evals	{:CityMPG+ 29.0 :Class- 9.2 :HighwayMPG+ 33.0 :N 5 :Weight- 2350.0}	{:CityMPG+ 3.1 :Class- 3.29 :HighwayMPG+ 4.65 :N 5 :Weight- 333.33}
+xpln on       5 evals	{:CityMPG+ 29.0 :Class- 10.3 :HighwayMPG+ 33.0 :N 25 :Weight- 2350.0}	{:CityMPG+ 6.98 :Class- 4.34 :HighwayMPG+ 5.43 :N 25 :Weight- 434.11}
+sort with    93 evals	{:CityMPG+ 39.0 :Class- 8.6 :HighwayMPG+ 43.0 :N 5 :Weight- 2045.0}	{:CityMPG+ 5.43 :Class- 1.43 :HighwayMPG+ 5.04 :N 5 :Weight- 253.88}
+
+▶️  xpln ------------------------------------------------------------
+
+-----------
+explain=	{:Engine_size {{-inf 1.6}} :Length {{-inf 172}}}
+all               	{:CityMPG+ 21.0 :Class- 17.7 :HighwayMPG+ 28.0 :N 93 :Weight- 3040.0}	{:CityMPG+ 4.65 :Class- 9.57 :HighwayMPG+ 5.04 :N 93 :Weight- 585.27}
+sway with     5 evals	{:CityMPG+ 32.0 :Class- 9.8 :HighwayMPG+ 37.0 :N 5 :Weight- 2055.0}	{:CityMPG+ 6.59 :Class- 1.59 :HighwayMPG+ 6.59 :N 5 :Weight- 329.46}
+xpln on       5 evals	{:CityMPG+ 31.0 :Class- 8.4 :HighwayMPG+ 34.0 :N 8 :Weight- 2045.0}	{:CityMPG+ 8.53 :Class- 1.01 :HighwayMPG+ 6.98 :N 8 :Weight- 251.94}
+sort with    93 evals	{:CityMPG+ 39.0 :Class- 8.6 :HighwayMPG+ 43.0 :N 5 :Weight- 2045.0}	{:CityMPG+ 5.43 :Class- 1.43 :HighwayMPG+ 5.04 :N 5 :Weight- 253.88}
+
+▶️  xpln ------------------------------------------------------------
+
+-----------
+explain=	{:Air_Bags_standard {{-inf 0}}}
+all               	{:CityMPG+ 21.0 :Class- 17.7 :HighwayMPG+ 28.0 :N 93 :Weight- 3040.0}	{:CityMPG+ 4.65 :Class- 9.57 :HighwayMPG+ 5.04 :N 93 :Weight- 585.27}
+sway with     5 evals	{:CityMPG+ 23.0 :Class- 13.4 :HighwayMPG+ 30.0 :N 6 :Weight- 2450.0}	{:CityMPG+ 3.88 :Class- 2.71 :HighwayMPG+ 4.26 :N 6 :Weight- 308.14}
+xpln on       5 evals	{:CityMPG+ 25.0 :Class- 18.4 :HighwayMPG+ 32.0 :N 3 :Weight- 2950.0}	{:CityMPG+ 3.1 :Class- 4.61 :HighwayMPG+ 2.71 :N 3 :Weight- 387.6}
+sort with    93 evals	{:CityMPG+ 33.0 :Class- 8.6 :HighwayMPG+ 41.0 :N 6 :Weight- 2045.0}	{:CityMPG+ 4.26 :Class- 0.54 :HighwayMPG+ 3.49 :N 6 :Weight- 253.88}
+
+▶️  xpln ------------------------------------------------------------
+
+-----------
+explain=	{:type {Small}}
+all               	{:CityMPG+ 21.0 :Class- 17.7 :HighwayMPG+ 28.0 :N 93 :Weight- 3040.0}	{:CityMPG+ 4.65 :Class- 9.57 :HighwayMPG+ 5.04 :N 93 :Weight- 585.27}
+sway with     5 evals	{:CityMPG+ 28.0 :Class- 8.6 :HighwayMPG+ 33.0 :N 6 :Weight- 1965.0}	{:CityMPG+ 6.2 :Class- 1.43 :HighwayMPG+ 5.43 :N 6 :Weight- 310.08}
+xpln on       5 evals	{:CityMPG+ 29.0 :Class- 10.3 :HighwayMPG+ 33.0 :N 25 :Weight- 2350.0}	{:CityMPG+ 6.98 :Class- 4.34 :HighwayMPG+ 5.43 :N 25 :Weight- 434.11}
+sort with    93 evals	{:CityMPG+ 33.0 :Class- 8.6 :HighwayMPG+ 41.0 :N 6 :Weight- 2045.0}	{:CityMPG+ 4.26 :Class- 0.54 :HighwayMPG+ 3.49 :N 6 :Weight- 253.88}
+
+▶️  xpln ------------------------------------------------------------
+
+-----------
+explain=	{:Horsepower {{-inf 85}} :type {Small}}
+all               	{:CityMPG+ 21.0 :Class- 17.7 :HighwayMPG+ 28.0 :N 93 :Weight- 3040.0}	{:CityMPG+ 4.65 :Class- 9.57 :HighwayMPG+ 5.04 :N 93 :Weight- 585.27}
+sway with     5 evals	{:CityMPG+ 29.0 :Class- 8.4 :HighwayMPG+ 33.0 :N 6 :Weight- 2045.0}	{:CityMPG+ 3.1 :Class- 0.66 :HighwayMPG+ 1.55 :N 6 :Weight- 164.73}
+xpln on       5 evals	{:CityMPG+ 31.0 :Class- 8.6 :HighwayMPG+ 37.0 :N 11 :Weight- 2240.0}	{:CityMPG+ 7.36 :Class- 1.86 :HighwayMPG+ 5.43 :N 11 :Weight- 253.88}
+sort with    93 evals	{:CityMPG+ 33.0 :Class- 8.6 :HighwayMPG+ 41.0 :N 6 :Weight- 2045.0}	{:CityMPG+ 4.26 :Class- 0.54 :HighwayMPG+ 3.49 :N 6 :Weight- 253.88}
+
+▶️  xpln ------------------------------------------------------------
+
+-----------
+explain=	{:type {Small}}
+all               	{:CityMPG+ 21.0 :Class- 17.7 :HighwayMPG+ 28.0 :N 93 :Weight- 3040.0}	{:CityMPG+ 4.65 :Class- 9.57 :HighwayMPG+ 5.04 :N 93 :Weight- 585.27}
+sway with     5 evals	{:CityMPG+ 29.0 :Class- 8.6 :HighwayMPG+ 33.0 :N 6 :Weight- 2345.0}	{:CityMPG+ 3.1 :Class- 1.4 :HighwayMPG+ 2.71 :N 6 :Weight- 203.49}
+xpln on       5 evals	{:CityMPG+ 29.0 :Class- 10.3 :HighwayMPG+ 33.0 :N 25 :Weight- 2350.0}	{:CityMPG+ 6.98 :Class- 4.34 :HighwayMPG+ 5.43 :N 25 :Weight- 434.11}
+sort with    93 evals	{:CityMPG+ 33.0 :Class- 8.6 :HighwayMPG+ 41.0 :N 6 :Weight- 2045.0}	{:CityMPG+ 4.26 :Class- 0.54 :HighwayMPG+ 3.49 :N 6 :Weight- 253.88}
+
+▶️  xpln ------------------------------------------------------------
+
+-----------
+explain=	{:Horsepower {{-inf 105}} :Wheelbase {{-inf 97}}}
+all               	{:CityMPG+ 21.0 :Class- 17.7 :HighwayMPG+ 28.0 :N 93 :Weight- 3040.0}	{:CityMPG+ 4.65 :Class- 9.57 :HighwayMPG+ 5.04 :N 93 :Weight- 585.27}
+sway with     5 evals	{:CityMPG+ 31.0 :Class- 8.4 :HighwayMPG+ 34.0 :N 6 :Weight- 1965.0}	{:CityMPG+ 5.43 :Class- 1.01 :HighwayMPG+ 5.04 :N 6 :Weight- 228.68}
+xpln on       5 evals	{:CityMPG+ 31.0 :Class- 9.0 :HighwayMPG+ 34.0 :N 11 :Weight- 2240.0}	{:CityMPG+ 6.2 :Class- 1.51 :HighwayMPG+ 6.59 :N 11 :Weight- 292.64}
+sort with    93 evals	{:CityMPG+ 33.0 :Class- 8.6 :HighwayMPG+ 41.0 :N 6 :Weight- 2045.0}	{:CityMPG+ 4.26 :Class- 0.54 :HighwayMPG+ 3.49 :N 6 :Weight- 253.88}
+
+▶️  xpln ------------------------------------------------------------
+
+-----------
+explain=	{:manual_transmission_available {1}}
+all               	{:CityMPG+ 21.0 :Class- 17.7 :HighwayMPG+ 28.0 :N 93 :Weight- 3040.0}	{:CityMPG+ 4.65 :Class- 9.57 :HighwayMPG+ 5.04 :N 93 :Weight- 585.27}
+sway with     5 evals	{:CityMPG+ 24.0 :Class- 9.2 :HighwayMPG+ 30.0 :N 6 :Weight- 2270.0}	{:CityMPG+ 3.1 :Class- 2.56 :HighwayMPG+ 2.71 :N 6 :Weight- 319.77}
+xpln on       5 evals	{:CityMPG+ 23.0 :Class- 14.9 :HighwayMPG+ 30.0 :N 63 :Weight- 2810.0}	{:CityMPG+ 5.04 :Class- 8.29 :HighwayMPG+ 5.04 :N 63 :Weight- 531.01}
+sort with    93 evals	{:CityMPG+ 33.0 :Class- 8.6 :HighwayMPG+ 41.0 :N 6 :Weight- 2045.0}	{:CityMPG+ 4.26 :Class- 0.54 :HighwayMPG+ 3.49 :N 6 :Weight- 253.88}
+
+▶️  xpln ------------------------------------------------------------
+
+-----------
+explain=	{:U-turn_space {{-inf 35}}}
+all               	{:CityMPG+ 21.0 :Class- 17.7 :HighwayMPG+ 28.0 :N 93 :Weight- 3040.0}	{:CityMPG+ 4.65 :Class- 9.57 :HighwayMPG+ 5.04 :N 93 :Weight- 585.27}
+sway with     5 evals	{:CityMPG+ 31.0 :Class- 8.4 :HighwayMPG+ 34.0 :N 6 :Weight- 1965.0}	{:CityMPG+ 5.43 :Class- 1.01 :HighwayMPG+ 5.04 :N 6 :Weight- 228.68}
+xpln on       5 evals	{:CityMPG+ 29.0 :Class- 10.0 :HighwayMPG+ 33.0 :N 16 :Weight- 2295.0}	{:CityMPG+ 5.04 :Class- 4.61 :HighwayMPG+ 3.1 :N 16 :Weight- 428.29}
+sort with    93 evals	{:CityMPG+ 33.0 :Class- 8.6 :HighwayMPG+ 41.0 :N 6 :Weight- 2045.0}	{:CityMPG+ 4.26 :Class- 0.54 :HighwayMPG+ 3.49 :N 6 :Weight- 253.88}
+
+▶️  xpln ------------------------------------------------------------
+
+-----------
+explain=	{:type {Small}}
+all               	{:CityMPG+ 21.0 :Class- 17.7 :HighwayMPG+ 28.0 :N 93 :Weight- 3040.0}	{:CityMPG+ 4.65 :Class- 9.57 :HighwayMPG+ 5.04 :N 93 :Weight- 585.27}
+sway with     5 evals	{:CityMPG+ 29.0 :Class- 8.4 :HighwayMPG+ 33.0 :N 6 :Weight- 2045.0}	{:CityMPG+ 5.43 :Class- 0.43 :HighwayMPG+ 5.04 :N 6 :Weight- 251.94}
+xpln on       5 evals	{:CityMPG+ 29.0 :Class- 10.3 :HighwayMPG+ 33.0 :N 25 :Weight- 2350.0}	{:CityMPG+ 6.98 :Class- 4.34 :HighwayMPG+ 5.43 :N 25 :Weight- 434.11}
+sort with    93 evals	{:CityMPG+ 33.0 :Class- 8.6 :HighwayMPG+ 41.0 :N 6 :Weight- 2045.0}	{:CityMPG+ 4.26 :Class- 0.54 :HighwayMPG+ 3.49 :N 6 :Weight- 253.88}
+
+▶️  xpln ------------------------------------------------------------
+
+-----------
+explain=	{:Air_Bags_standard {{-inf 0}}}
+all               	{:CityMPG+ 21.0 :Class- 17.7 :HighwayMPG+ 28.0 :N 93 :Weight- 3040.0}	{:CityMPG+ 4.65 :Class- 9.57 :HighwayMPG+ 5.04 :N 93 :Weight- 585.27}
+sway with     5 evals	{:CityMPG+ 23.0 :Class- 11.3 :HighwayMPG+ 31.0 :N 6 :Weight- 2575.0}	{:CityMPG+ 2.71 :Class- 2.17 :HighwayMPG+ 3.1 :N 6 :Weight- 158.91}
+xpln on       5 evals	{:CityMPG+ 25.0 :Class- 18.4 :HighwayMPG+ 32.0 :N 3 :Weight- 2950.0}	{:CityMPG+ 3.1 :Class- 4.61 :HighwayMPG+ 2.71 :N 3 :Weight- 387.6}
+sort with    93 evals	{:CityMPG+ 33.0 :Class- 8.6 :HighwayMPG+ 41.0 :N 6 :Weight- 2045.0}	{:CityMPG+ 4.26 :Class- 0.54 :HighwayMPG+ 3.49 :N 6 :Weight- 253.88}
+
+▶️  xpln ------------------------------------------------------------
+
+-----------
+explain=	{:maker {Ford}}
+all               	{:CityMPG+ 21.0 :Class- 17.7 :HighwayMPG+ 28.0 :N 93 :Weight- 3040.0}	{:CityMPG+ 4.65 :Class- 9.57 :HighwayMPG+ 5.04 :N 93 :Weight- 585.27}
+sway with     5 evals	{:CityMPG+ 23.0 :Class- 14.0 :HighwayMPG+ 29.0 :N 5 :Weight- 2690.0}	{:CityMPG+ 3.49 :Class- 3.29 :HighwayMPG+ 2.71 :N 5 :Weight- 389.53}
+xpln on       5 evals	{:CityMPG+ 22.0 :Class- 15.1 :HighwayMPG+ 29.0 :N 13 :Weight- 2775.0}	{:CityMPG+ 6.2 :Class- 5.47 :HighwayMPG+ 5.04 :N 13 :Weight- 790.7}
+sort with    93 evals	{:CityMPG+ 39.0 :Class- 8.6 :HighwayMPG+ 43.0 :N 5 :Weight- 2045.0}	{:CityMPG+ 5.43 :Class- 1.43 :HighwayMPG+ 5.04 :N 5 :Weight- 253.88}
+
+▶️  xpln ------------------------------------------------------------
+
+-----------
+explain=	{:type {Small}}
+all               	{:CityMPG+ 21.0 :Class- 17.7 :HighwayMPG+ 28.0 :N 93 :Weight- 3040.0}	{:CityMPG+ 4.65 :Class- 9.57 :HighwayMPG+ 5.04 :N 93 :Weight- 585.27}
+sway with     5 evals	{:CityMPG+ 31.0 :Class- 8.6 :HighwayMPG+ 33.0 :N 6 :Weight- 1965.0}	{:CityMPG+ 6.2 :Class- 1.51 :HighwayMPG+ 6.59 :N 6 :Weight- 292.64}
+xpln on       5 evals	{:CityMPG+ 29.0 :Class- 10.3 :HighwayMPG+ 33.0 :N 25 :Weight- 2350.0}	{:CityMPG+ 6.98 :Class- 4.34 :HighwayMPG+ 5.43 :N 25 :Weight- 434.11}
+sort with    93 evals	{:CityMPG+ 33.0 :Class- 8.6 :HighwayMPG+ 41.0 :N 6 :Weight- 2045.0}	{:CityMPG+ 4.26 :Class- 0.54 :HighwayMPG+ 3.49 :N 6 :Weight- 253.88}
+
+▶️  xpln ------------------------------------------------------------
+
+-----------
+explain=	{:type {Small}}
+all               	{:CityMPG+ 21.0 :Class- 17.7 :HighwayMPG+ 28.0 :N 93 :Weight- 3040.0}	{:CityMPG+ 4.65 :Class- 9.57 :HighwayMPG+ 5.04 :N 93 :Weight- 585.27}
+sway with     5 evals	{:CityMPG+ 28.0 :Class- 11.1 :HighwayMPG+ 33.0 :N 6 :Weight- 2440.0}	{:CityMPG+ 2.33 :Class- 1.63 :HighwayMPG+ 2.71 :N 6 :Weight- 319.77}
+xpln on       5 evals	{:CityMPG+ 29.0 :Class- 10.3 :HighwayMPG+ 33.0 :N 25 :Weight- 2350.0}	{:CityMPG+ 6.98 :Class- 4.34 :HighwayMPG+ 5.43 :N 25 :Weight- 434.11}
+sort with    93 evals	{:CityMPG+ 33.0 :Class- 8.6 :HighwayMPG+ 41.0 :N 6 :Weight- 2045.0}	{:CityMPG+ 4.26 :Class- 0.54 :HighwayMPG+ 3.49 :N 6 :Weight- 253.88}
+
+▶️  xpln ------------------------------------------------------------
+
+-----------
+explain=	{:domestic {1} :maker {Ford}}
+all               	{:CityMPG+ 21.0 :Class- 17.7 :HighwayMPG+ 28.0 :N 93 :Weight- 3040.0}	{:CityMPG+ 4.65 :Class- 9.57 :HighwayMPG+ 5.04 :N 93 :Weight- 585.27}
+sway with     5 evals	{:CityMPG+ 23.0 :Class- 14.0 :HighwayMPG+ 29.0 :N 5 :Weight- 2690.0}	{:CityMPG+ 3.49 :Class- 3.29 :HighwayMPG+ 2.71 :N 5 :Weight- 389.53}
+xpln on       5 evals	{:CityMPG+ 22.0 :Class- 15.1 :HighwayMPG+ 29.0 :N 9 :Weight- 2850.0}	{:CityMPG+ 3.49 :Class- 4.96 :HighwayMPG+ 3.88 :N 9 :Weight- 732.56}
+sort with    93 evals	{:CityMPG+ 39.0 :Class- 8.6 :HighwayMPG+ 43.0 :N 5 :Weight- 2045.0}	{:CityMPG+ 5.43 :Class- 1.43 :HighwayMPG+ 5.04 :N 5 :Weight- 253.88}
+
+▶️  xpln ------------------------------------------------------------
+
+-----------
+explain=	{:type {Small}}
+all               	{:CityMPG+ 21.0 :Class- 17.7 :HighwayMPG+ 28.0 :N 93 :Weight- 3040.0}	{:CityMPG+ 4.65 :Class- 9.57 :HighwayMPG+ 5.04 :N 93 :Weight- 585.27}
+sway with     5 evals	{:CityMPG+ 29.0 :Class- 8.6 :HighwayMPG+ 33.0 :N 6 :Weight- 2045.0}	{:CityMPG+ 5.43 :Class- 0.97 :HighwayMPG+ 5.04 :N 6 :Weight- 308.14}
+xpln on       5 evals	{:CityMPG+ 29.0 :Class- 10.3 :HighwayMPG+ 33.0 :N 25 :Weight- 2350.0}	{:CityMPG+ 6.98 :Class- 4.34 :HighwayMPG+ 5.43 :N 25 :Weight- 434.11}
+sort with    93 evals	{:CityMPG+ 33.0 :Class- 8.6 :HighwayMPG+ 41.0 :N 6 :Weight- 2045.0}	{:CityMPG+ 4.26 :Class- 0.54 :HighwayMPG+ 3.49 :N 6 :Weight- 253.88}
+
+▶️  xpln ------------------------------------------------------------
+
+-----------
+explain=	{:type {Small}}
+all               	{:CityMPG+ 21.0 :Class- 17.7 :HighwayMPG+ 28.0 :N 93 :Weight- 3040.0}	{:CityMPG+ 4.65 :Class- 9.57 :HighwayMPG+ 5.04 :N 93 :Weight- 585.27}
+sway with     5 evals	{:CityMPG+ 32.0 :Class- 9.1 :HighwayMPG+ 37.0 :N 5 :Weight- 2055.0}	{:CityMPG+ 9.3 :Class- 0.62 :HighwayMPG+ 8.14 :N 5 :Weight- 358.53}
+xpln on       5 evals	{:CityMPG+ 29.0 :Class- 10.3 :HighwayMPG+ 33.0 :N 25 :Weight- 2350.0}	{:CityMPG+ 6.98 :Class- 4.34 :HighwayMPG+ 5.43 :N 25 :Weight- 434.11}
+sort with    93 evals	{:CityMPG+ 39.0 :Class- 8.6 :HighwayMPG+ 43.0 :N 5 :Weight- 2045.0}	{:CityMPG+ 5.43 :Class- 1.43 :HighwayMPG+ 5.04 :N 5 :Weight- 253.88}
+
+▶️  xpln ------------------------------------------------------------
+
+-----------
+explain=	{:Engine_size {{-inf 1.6}} :Length {{-inf 166}} :domestic {0} :type {Small}}
+all               	{:CityMPG+ 21.0 :Class- 17.7 :HighwayMPG+ 28.0 :N 93 :Weight- 3040.0}	{:CityMPG+ 4.65 :Class- 9.57 :HighwayMPG+ 5.04 :N 93 :Weight- 585.27}
+sway with     5 evals	{:CityMPG+ 32.0 :Class- 8.6 :HighwayMPG+ 37.0 :N 5 :Weight- 2055.0}	{:CityMPG+ 6.59 :Class- 1.36 :HighwayMPG+ 6.59 :N 5 :Weight- 329.46}
+xpln on       5 evals	{:CityMPG+ 33.0 :Class- 8.4 :HighwayMPG+ 37.0 :N 4 :Weight- 1965.0}	{:CityMPG+ 5.43 :Class- 0.54 :HighwayMPG+ 5.04 :N 4 :Weight- 139.53}
+sort with    93 evals	{:CityMPG+ 39.0 :Class- 8.6 :HighwayMPG+ 43.0 :N 5 :Weight- 2045.0}	{:CityMPG+ 5.43 :Class- 1.43 :HighwayMPG+ 5.04 :N 5 :Weight- 253.88}
+
+▶️  xpln ------------------------------------------------------------
+
+-----------
+explain=	{:U-turn_space {{-inf 35}} :type {Small}}
+all               	{:CityMPG+ 21.0 :Class- 17.7 :HighwayMPG+ 28.0 :N 93 :Weight- 3040.0}	{:CityMPG+ 4.65 :Class- 9.57 :HighwayMPG+ 5.04 :N 93 :Weight- 585.27}
+sway with     5 evals	{:CityMPG+ 29.0 :Class- 8.6 :HighwayMPG+ 33.0 :N 6 :Weight- 2045.0}	{:CityMPG+ 5.43 :Class- 0.97 :HighwayMPG+ 5.04 :N 6 :Weight- 308.14}
+xpln on       5 evals	{:CityMPG+ 29.0 :Class- 9.1 :HighwayMPG+ 33.0 :N 12 :Weight- 2270.0}	{:CityMPG+ 7.36 :Class- 1.86 :HighwayMPG+ 5.43 :N 12 :Weight- 358.53}
+sort with    93 evals	{:CityMPG+ 33.0 :Class- 8.6 :HighwayMPG+ 41.0 :N 6 :Weight- 2045.0}	{:CityMPG+ 4.26 :Class- 0.54 :HighwayMPG+ 3.49 :N 6 :Weight- 253.88}
+
+▶️  xpln ------------------------------------------------------------
+
+-----------
+explain=	{:domestic {0} :type {Small}}
+all               	{:CityMPG+ 21.0 :Class- 17.7 :HighwayMPG+ 28.0 :N 93 :Weight- 3040.0}	{:CityMPG+ 4.65 :Class- 9.57 :HighwayMPG+ 5.04 :N 93 :Weight- 585.27}
+sway with     5 evals	{:CityMPG+ 32.0 :Class- 9.8 :HighwayMPG+ 37.0 :N 5 :Weight- 2325.0}	{:CityMPG+ 8.14 :Class- 3.91 :HighwayMPG+ 6.98 :N 5 :Weight- 486.43}
+xpln on       5 evals	{:CityMPG+ 29.0 :Class- 10.3 :HighwayMPG+ 33.0 :N 17 :Weight- 2345.0}	{:CityMPG+ 6.59 :Class- 2.95 :HighwayMPG+ 5.43 :N 17 :Weight- 286.82}
+sort with    93 evals	{:CityMPG+ 39.0 :Class- 8.6 :HighwayMPG+ 43.0 :N 5 :Weight- 2045.0}	{:CityMPG+ 5.43 :Class- 1.43 :HighwayMPG+ 5.04 :N 5 :Weight- 253.88}

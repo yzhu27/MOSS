@@ -1,0 +1,9 @@
+
+▶️  xpln ------------------------------------------------------------
+
+-----------
+explain=	{:Passenger_capacity {{-inf 4}}}
+all               	{:CityMPG+ 21.0 :Class- 17.7 :HighwayMPG+ 28.0 :N 93 :Weight- 3040.0}	{:CityMPG+ 4.65 :Class- 9.57 :HighwayMPG+ 5.04 :N 93 :Weight- 585.27}
+sway with     5 evals	{:CityMPG+ 26.0 :Class- 10.0 :HighwayMPG+ 34.0 :N 5 :Weight- 2285.0}	{:CityMPG+ 3.88 :Class- 2.21 :HighwayMPG+ 4.26 :N 5 :Weight- 166.67}
+xpln on       5 evals	{:CityMPG+ 17.0 :Class- 32.5 :HighwayMPG+ 25.0 :N 4 :Weight- 2895.0}	{:CityMPG+ 2.71 :Class- 11.16 :HighwayMPG+ 1.55 :N 4 :Weight- 490.31}
+sort with    93 evals	{:CityMPG+ 39.0 :Class- 8.6 :HighwayMPG+ 43.0 :N 5 :Weight- 2045.0}	{:CityMPG+ 5.43 :Class- 1.43 :HighwayMPG+ 5.04 :N 5 :Weight- 253.88}
