@@ -2,8 +2,8 @@
 ▶️  xpln ------------------------------------------------------------
 
 -----------
-explain=	{:no_scenecut {1}}
+explain=	{:B_bias {{-inf -23}} :no_scenecut {1}}
 all               	{:Energy- 1237.73 :N 53662 :PSNR- 45.67}	{:Energy- 1237.85 :N 53662 :PSNR- 5.49}
-sway with     9 evals	{:Energy- 820.44 :N 209 :PSNR- 42.76}	{:Energy- 464.09 :N 209 :PSNR- 7.86}
-xpln on       9 evals	{:Energy- 1177.5 :N 12444 :PSNR- 45.69}	{:Energy- 757.6 :N 12444 :PSNR- 5.43}
+sway with     9 evals	{:Energy- 1394.45 :N 209 :PSNR- 41.1}	{:Energy- 547.82 :N 209 :PSNR- 3.92}
+xpln on       9 evals	{:Energy- 1150.54 :N 5372 :PSNR- 42.37}	{:Energy- 613.73 :N 5372 :PSNR- 5.63}
 sort with 53662 evals	{:Energy- 465.94 :N 209 :PSNR- 26.7}	{:Energy- 224.31 :N 209 :PSNR- 2.72}
