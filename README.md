@@ -3,7 +3,8 @@ A Multi Objective Semi Supervised explanation system.
 
 ## Introduction
 This Repository provide a alternative method to apply data imputation on multi-objective semi-supervised explanation system.
-
+## Paper
+Paper is included in ./paper folder.
 ## Repository Structure
 #### src
 Source code of original explanation system, and additional runtime scripts for execution.
