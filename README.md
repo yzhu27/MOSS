@@ -1,16 +1,18 @@
 # MOSS
 A Multi Objective Semi Supervised explanation system.
 
-## Process
-1. 在python sklearn库里找一个能用的sota半监督多目标方法能用到所有数据集上
-2. 改一改lua的sway和xpln然后解释为什么有改进
-3. 使用关于x, y变量的所有信息，用齐茨勒谓词对数据进行排序。将这些等级标准化为1-100
-4. 做B0次predict, 评估predict的y结果,收集分布
+## Introduction
+This Repository provide a alternative method to apply data imputation on multi-objective semi-supervised explanation system.
 
-
-
-
-1. 挑一个数据集跑二十次
-2. 取每个的均值得到第一个表
-3. 取不同sway和xpln均值的差得到tax
-4. 
+## Repository Structure
+#### src
+    Source code of original explanation system, and additional runtime scripts for execution.
+#### code
+    Code for generating imputed datasets
+#### etc
+##### data & new_data
+    Original datasets and generated datasets
+##### out & new_out
+    Outputs from original datasets and generated datasets
+#### seed
+    Additional code and script for calculating KW and MWU
